@@ -1,0 +1,29 @@
+Persona:
+    nome : xxx
+    idade : xxx
+    hobby : xxx
+    trabalho : xxx
+    personalidade : xxx
+    sonhos : xxx
+    objetos_e_lugares: |
+        xxxxxxxxxxxx
+        xxxxxxxxxxxx
+        # quais objetos fisicos e digitais essa pessoa usa?
+        # quando onde e como ela os usa?
+    objetivos_chave: |
+        xxxxxxxxxxxx
+        xxxxxxxxxxxx
+        # quais sao os objetivos chave da pessoa durante a utilização do serviço?
+        # por que eles precisam desse serviço?
+    como_devemos_trata_la: |
+        xxxxxxxxxxxx
+        xxxxxxxxxxxx
+        # como devemos trata la para que se sinta bem?
+        # quais sao os tipos de comportamento que deixam essa pessoa feliz?
+    nunca_devemos: |
+        xxxxxxxxxxxx
+        xxxxxxxxxxxx
+        # o que nunca devemos fazer em relação a essa pessoa?
+        # que tipo de atitude ela não suporta?
+        # o que deixa essa pessoa furiosa?
+        
