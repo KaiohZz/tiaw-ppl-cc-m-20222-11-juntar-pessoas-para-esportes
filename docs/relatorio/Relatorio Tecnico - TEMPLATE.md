@@ -23,7 +23,7 @@ Curso Ciência da Computação
   - [Objetivos](#objetivos)
   - [Justificativa](#justificativa)
   - [Público-Alvo](#público-alvo)
-- [especificações do Projeto](#especificações-do-projeto)
+- [Especificações do Projeto](#especificações-do-projeto)
   - [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
   - [Histórias de Usuários](#histórias-de-usuários)
   - [Requisitos](#requisitos)
@@ -101,27 +101,12 @@ Curso Ciência da Computação
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
-
-  Profissionais urbanos e/ou estudantes que tem como lazer a prática de esportes coletivos.
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
+> O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eventos para práticas esportivas. Sendo assim, o público alvo pode ser definido como mulheres e homens, que moram em Belo Horizonte, com idade entre 15 e 60 anos, que buscam praticar esportes coletivos em seus momentos de lazer.
 > 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
-Utilizamos as ferramentas Trello e Miro para documentar o processo de desenvolvimento. O Marvelapp como ferramenta de montagem do userflow.
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -162,7 +147,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Usuário            | facilitar o meu dia-a-dia          | poder melhor aproveitar o meu tempo    |
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -191,7 +177,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
@@ -297,7 +283,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-Foi utilizado o Miro e o Trello para divisão dos papeis, onde os membros escolhiam conforme aptidão.
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -308,7 +294,7 @@ Foi utilizado o Miro e o Trello para divisão dos papeis, onde os membros escolh
 
 ## Ferramentas
 
-Foram utilizadas: Marvelapp, Miro, Trello, Github, Git.
+......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
