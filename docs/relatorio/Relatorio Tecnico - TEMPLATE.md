@@ -198,6 +198,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 ## Wireframes
 > Conforme o fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens a seguir: 
+> [Protótipo Interativo](https://marvelapp.com/prototype/e2chaa3/screen/88748564)
 > 
 > **Home**:
 > 
