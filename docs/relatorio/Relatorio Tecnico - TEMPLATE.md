@@ -266,19 +266,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+> Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens a seguir.> 
 > 
 > **Home**:
 > 
@@ -292,7 +280,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > ![Wireframe4](images/Protótipo-4.jpeg)
 > 
-> **Search*:
+> **Search**:
 > 
 > ![Wireframe5](images/Protótipo-3.jpeg)
 > 
