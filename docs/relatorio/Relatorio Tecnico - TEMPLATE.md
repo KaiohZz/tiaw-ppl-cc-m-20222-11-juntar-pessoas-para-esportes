@@ -3,14 +3,15 @@
 Curso Ciência da Computação 
 
 
-
 ## Participantes
-> Allan Guilherme Gomes Pego
-> Bernardo Ribeiro Martins
-> Felipe Assis Michalaros 
-> Leticia Guimarães Pedrosa
-> Pedro Augusto Etelvino Albuquerque 
-> Vitoria Avany Gallo Motta 
+<ul>
+  <li>Allan Guilherme Gomes Pego</li>
+  <li>Bernardo Ribeiro Martins</li>
+  <li>Felipe Assis Michalaros </li>
+  <li>Leticia Guimarães Pedrosa</li>
+  <li>Pedro Augusto Etelvino Albuquerque </li>
+  <li>Vitoria Avany Gallo Motta </li>
+</ul>
 
 # Estrutura do Documento
 
