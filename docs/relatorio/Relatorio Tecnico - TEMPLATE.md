@@ -282,16 +282,31 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > **Home**:
 > 
-> ![Wireframe1](images/Protótipo-1.jpeg)
+> ![Wireframe2](images/Protótipo-1.jpeg)
 > 
 > **Sign Up**:
 > 
-> ![Wireframe1](images/Protótipo-2.jpeg)
+> ![Wireframe3](images/Protótipo-2.jpeg)
 > 
 > **Sign In**:
 > 
-> ![Wireframe1](images/Protótipo-4.jpeg)
-
+> ![Wireframe4](images/Protótipo-4.jpeg)
+> 
+> **Search*:
+> 
+> ![Wireframe5](images/Protótipo-3.jpeg)
+> 
+> **Perfil**:
+> 
+> ![Wireframe6](images/Protótipo-5.jpeg)
+> 
+> **Adicionar Esporte**:
+> 
+> ![Wireframe7](images/Protótipo-6.jpeg)
+> 
+> **Informações do Esporte**:
+> 
+> ![Wireframe8](images/Protótipo-7.jpeg)
 
 # Metodologia
 
