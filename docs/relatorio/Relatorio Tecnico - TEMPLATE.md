@@ -1,21 +1,17 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
+# Sport Match
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Curso Ciência da Computação 
 
-`CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+<ul>
+  <li>Allan Guilherme Gomes Pego</li>
+  <li>Bernardo Ribeiro Martins</li>
+  <li>Felipe Assis Michalaros </li>
+  <li>Leticia Guimarães Pedrosa</li>
+  <li>Pedro Augusto Etelvino Albuquerque </li>
+  <li>Vitoria Avany Gallo Motta </li>
+</ul>
 
 # Estrutura do Documento
 
@@ -53,74 +49,26 @@
 
 
 # Introdução
+  Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas sente em organizar e combinar práticas esportivas.
 
 ## Objetivos
+O objetivo geral deste trabalho é a criação de um site que facilite a organização e a marcação de práticas esportivas.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Como objetivos específicos, podemos ressaltar:
+  - Fornecer diversas opções ao usuário de eventos para a realização de esportes;
+  - Possibilitar ao usuário a criaação de eventos para práicas esportivas.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Assim, é fundamental a criação de um ambiente que minimize esses impasses e que corrobore o encontro de pessoas com interesses similares.
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eventos para práticas esportivas. Sendo assim, o público alvo pode ser definido como mulheres e homens, que moram em Belo Horizonte, com idade entre 15 e 60 anos, que buscam praticar esportes coletivos em seus momentos de lazer.
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -132,7 +80,8 @@
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
+	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -239,51 +188,45 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+> Foi desenvolvido um projeto de interface que proporciona aos usuário o planejamento e a marcação de eventos esportivos.
 
 ## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
-
+> O diagrama apresentado a seguir mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes.
+> 
+> ![UserFlow](images/wireflow.jpg)
+> 
 ## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
+> Conforme o fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens a seguir: 
+> [Protótipo Interativo](https://marvelapp.com/prototype/e2chaa3/screen/88748564)
 > 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+> **Home**:
 > 
-> **Exemplo**:
+> ![Wireframe2](images/Protótipo-1.jpeg)
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
+> **Sign Up**:
+> 
+> ![Wireframe3](images/Protótipo-2.jpeg)
+> 
+> **Sign In**:
+> 
+> ![Wireframe4](images/Protótipo-4.jpeg)
+> 
+> **Search**:
+> 
+> ![Wireframe5](images/Protótipo-3.jpeg)
+> 
+> **Perfil**:
+> 
+> ![Wireframe6](images/Protótipo-5.jpeg)
+> 
+> **Adicionar Esporte**:
+> 
+> ![Wireframe7](images/Protótipo-6.jpeg)
+> 
+> **Informações do Esporte**:
+> 
+> ![Wireframe8](images/Protótipo-7.jpeg)
 
 # Metodologia
 
