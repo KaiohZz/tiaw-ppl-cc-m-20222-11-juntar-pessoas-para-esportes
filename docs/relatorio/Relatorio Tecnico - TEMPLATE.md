@@ -281,12 +281,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 > 
 > **Home**:
+> 
 > ![Wireframe1](images/Protótipo-1.jpeg)
 > 
 > **Sign Up**:
+> 
 > ![Wireframe1](images/Protótipo-2.jpeg)
 > 
 > **Sign In**:
+> 
 > ![Wireframe1](images/Protótipo-4.jpeg)
 
 
