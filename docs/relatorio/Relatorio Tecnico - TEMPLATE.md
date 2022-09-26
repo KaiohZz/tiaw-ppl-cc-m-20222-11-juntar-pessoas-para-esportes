@@ -287,17 +287,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
+> A metodologia escolhida pelo grupo é o scrum que tem como pilares:
+> comunicação — indivíduos e interações são mais que processos e ferramentas;
+> praticidade — softwares em funcionamento são mais que documentação abrangente;
+> colaboração — a colaboração com o cliente é mais que a negociação de contratos;
+> adaptabilidade e flexibilidade — responder a mudanças é mais que seguir um plano.
+> 
+> As ferramentas utilizadas são: backlog e scrum board.
+> Os ritos são: sprint planing, stand up meeting e sprint review.
 >
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
 > 
 > **Links Úteis**:
 > - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
@@ -307,9 +305,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
+> O grupo possue seis integrantes:
+> um product owner, reposável por manter o backlog atualizado e definir as histórias da sprint.
+> um scrum master, responsável pela manutenção dos ritos e divisão de tarefas entre a equipe.
+> 
 >
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -327,21 +326,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
 > 
 > As ferramentas empregadas no projeto são:
 > 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
+> - Editor de código: vim e vscode
+> - Ferramentas de comunicação: whats app
+> - Ferramentas de diagramação: miro 
+> - Plataforma de hospedagem: herokuapp
 > 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
+> O editor vscode foi escolhido porque ele possui uma integração com o sistema de versão.
+> O editor vim foi escolhido por apresentar grande estabilidade e confiabilidade.
+> A ferramenta de comunicação whats app foi escolhida uma vez que ela já está fortemente
+> ligada ao dia a dia dos participantes. 
+> Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as
 > necessidades da nossa solução.
 > 
 > **Links Úteis - Hospedagem**:
@@ -352,21 +349,18 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
+> O projeto está hospedado no github todos os participantes possuem acesso a leitura e 
+> escrita, porem para evitar possiveis problemas com sobreescrita de dados cada colaborador
+> irá fazer suas edições em sua própria branch e depois efetuar o merge para master.
 > A ferramenta de controle de versão adotada no projeto foi o
 > [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
+> foi utilizado para hospedagem do repositório `origin`.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
 > 
 > - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
+> - `homolog`: versão em testes do software
 > - `dev`: versão de desenvolvimento do software
 > 
 > Quanto à gerência de issues, o projeto adota a seguinte convenção para
