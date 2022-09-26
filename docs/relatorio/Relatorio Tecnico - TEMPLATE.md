@@ -1,21 +1,28 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+Sport Match 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-
-`CURSO` 
+Ciência da Computação 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
+Allan Guilherme Gomes Pego
+Bernardo Ribeiro Martins
+Felipe Assis Michalaros 
+Leticia Guimarães Pedrosa
+Pedro Augusto Etelvino Albuquerque 
+Vitoria Avany Gallo Motta 
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Allan Guilherme Gomes Pego
+Bernardo Ribeiro Martins
+Felipe Assis Michalaros 
+Leticia Guimarães Pedrosa
+Pedro Augusto Etelvino Albuquerque 
+Vitoria Avany Gallo Motta 
 
 # Estrutura do Documento
 
@@ -53,11 +60,12 @@
 
 
 # Introdução
+  Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
+ 
+ O problema acaba sendo uma junção de todas as interpéries de seus componentes, acabando que quanto maior e mais diverso o grupo, mas difícil encontrar um horário para todos.
+ 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
 > Descreva também o contexto em que essa aplicação será usada, se
@@ -76,7 +84,7 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  O esboço inicial é criar uma plataforma que automatize a organização de diferentes horários de indivídios para que estes possam encontrar um ponto em comum em suas janelas de horário disponíveis. Durante as entrevistas também foi ensejado uma ferramenta para checagem de pagamentos e evitar cobrança indevida e prejuízos absorvidos pelos organizadores.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -105,7 +113,7 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Profissionais urbanos e/ou estudantes que tem como lazer a prática de esportes coletivos.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -132,7 +140,8 @@
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
+	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
