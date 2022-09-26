@@ -1,10 +1,10 @@
 # Informações do Projeto
 Sport Match 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Curso
 Ciência da Computação 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 ## Participantes
 Allan Guilherme Gomes Pego
