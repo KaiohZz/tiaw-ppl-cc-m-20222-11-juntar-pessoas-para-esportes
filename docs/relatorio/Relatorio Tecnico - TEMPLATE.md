@@ -52,15 +52,14 @@ Curso Ciência da Computação
   Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
- 
-> O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas sente em organizar e combinar práticas esportivas.
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas sente em organizar e combinar práticas esportivas.
 
 ## Objetivos
-> O objetivo geral deste trabalho é a criação de um site que facilite a organização e a marcação de práticas esportivas.
->
-> Como objetivos específicos, podemos ressaltar:
-> Fornecer diversas opções ao usuário de eventos para a realização de esportes;
-> Possibilitar ao usuário a criaação de eventos para práicas esportivas.
+O objetivo geral deste trabalho é a criação de um site que facilite a organização e a marcação de práticas esportivas.
+
+Como objetivos específicos, podemos ressaltar:
+  - Fornecer diversas opções ao usuário de eventos para a realização de esportes;
+  - Possibilitar ao usuário a criaação de eventos para práicas esportivas.
 
 
 ## Justificativa
@@ -68,8 +67,8 @@ Curso Ciência da Computação
 
 
 ## Público-Alvo
-> O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eventos para práticas esportivas. Sendo assim, o público alvo pode ser definido como mulheres e homens, que moram em Belo Horizonte, com idade entre 15 e 60 anos, que buscam praticar esportes coletivos em seus momentos de lazer.
-> 
+O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eventos para práticas esportivas. Sendo assim, o público alvo pode ser definido como mulheres e homens, que moram em Belo Horizonte, com idade entre 15 e 60 anos, que buscam praticar esportes coletivos em seus momentos de lazer.
+
  
 # Especificações do Projeto
 
