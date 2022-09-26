@@ -63,7 +63,7 @@ Como objetivos específicos, podemos ressaltar:
 
 
 ## Justificativa
-
+Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Assim, é fundamental a criação de um ambiente que minimize esses impasses e que corrobore o encontro de pessoas com interesses similares.
 
 
 ## Público-Alvo
