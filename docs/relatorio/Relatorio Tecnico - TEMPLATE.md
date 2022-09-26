@@ -249,7 +249,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## User Flow
 > 
 > O diagrama apresentado a seguir mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes.
->
+> ![UserFlow](images/wireflow.jpg)
 >
 > 
 ## Wireframes
