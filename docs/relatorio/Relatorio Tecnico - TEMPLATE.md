@@ -1,28 +1,16 @@
-# Informações do Projeto
-Sport Match 
+# Sport Match
 
-Curso
-Ciência da Computação 
+Curso Ciência da Computação 
 
 
 
 ## Participantes
-Allan Guilherme Gomes Pego
-Bernardo Ribeiro Martins
-Felipe Assis Michalaros 
-Leticia Guimarães Pedrosa
-Pedro Augusto Etelvino Albuquerque 
-Vitoria Avany Gallo Motta 
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-Allan Guilherme Gomes Pego
-Bernardo Ribeiro Martins
-Felipe Assis Michalaros 
-Leticia Guimarães Pedrosa
-Pedro Augusto Etelvino Albuquerque 
-Vitoria Avany Gallo Motta 
+> Allan Guilherme Gomes Pego
+> Bernardo Ribeiro Martins
+> Felipe Assis Michalaros 
+> Leticia Guimarães Pedrosa
+> Pedro Augusto Etelvino Albuquerque 
+> Vitoria Avany Gallo Motta 
 
 # Estrutura do Documento
 
