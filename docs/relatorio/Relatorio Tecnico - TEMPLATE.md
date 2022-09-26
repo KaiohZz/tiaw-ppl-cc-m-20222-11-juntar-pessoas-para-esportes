@@ -23,7 +23,7 @@ Curso Ciência da Computação
   - [Objetivos](#objetivos)
   - [Justificativa](#justificativa)
   - [Público-Alvo](#público-alvo)
-- [Especificações do Projeto](#especificações-do-projeto)
+- [especificações do Projeto](#especificações-do-projeto)
   - [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
   - [Histórias de Usuários](#histórias-de-usuários)
   - [Requisitos](#requisitos)
@@ -121,7 +121,7 @@ Curso Ciência da Computação
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Utilizamos as ferramentas Trello e Miro para documentar o processo de desenvolvimento. O Marvelapp como ferramenta de montagem do userflow.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -162,8 +162,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Usuário            | facilitar o meu dia-a-dia          | poder melhor aproveitar o meu tempo    |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -192,7 +191,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
@@ -298,7 +297,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Foi utilizado o Miro e o Trello para divisão dos papeis, onde os membros escolhiam conforme aptidão.
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -309,7 +308,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Foram utilizadas: Marvelapp, Miro, Trello, Github, Git.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
