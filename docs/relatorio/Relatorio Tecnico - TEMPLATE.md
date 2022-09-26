@@ -280,9 +280,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 > 
-> **Exemplo**:
-> 
+> **Home**:
 > ![Wireframe1](images/Protótipo-1.jpeg)
+> 
+> **Sign Up**:
+> ![Wireframe1](images/Protótipo-2.jpeg)
+> 
+> **Sign In**:
+> ![Wireframe1](images/Protótipo-4.jpeg)
 
 
 # Metodologia
