@@ -56,33 +56,16 @@ Curso Ciência da Computação
 > O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas sente em organizar e combinar práticas esportivas.
 
 ## Objetivos
+> O objetivo geral deste trabalho é a criação de um site que facilite a organização e a marcação de práticas esportivas.
+>
+> Como objetivos específicos, podemos ressaltar:
+> Fornecer diversas opções ao usuário de eventos para a realização de esportes;
+> Possibilitar ao usuário a criaação de eventos para práicas esportivas.
 
-  O esboço inicial é criar uma plataforma que automatize a organização de diferentes horários de indivídios para que estes possam encontrar um ponto em comum em suas janelas de horário disponíveis. Durante as entrevistas também foi ensejado uma ferramenta para checagem de pagamentos e evitar cobrança indevida e prejuízos absorvidos pelos organizadores.
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 > O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eventos para práticas esportivas. Sendo assim, o público alvo pode ser definido como mulheres e homens, que moram em Belo Horizonte, com idade entre 15 e 60 anos, que buscam praticar esportes coletivos em seus momentos de lazer.
