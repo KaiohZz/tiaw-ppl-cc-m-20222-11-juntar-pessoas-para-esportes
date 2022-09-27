@@ -83,7 +83,7 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
 	
 | persona 1 |
-|-----------|
+|-----------|-----------------------------------------------------------------------------------------------------|
 | nome | adriano |
 | idade | 44 anos|
 | hobby | pratica de esportes ao ar livre, gosta de reuinir com amigos para jogar|
@@ -95,7 +95,7 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 	
 	
 | persona 2 |
-|-----------|
+|-----------|---------------------------------------------------------------------------------------------|
 | nome | Guilherme|
 | idade | 35 anos|
 | hobby | pratica de futebol e ir ao estádio|
