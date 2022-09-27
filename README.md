@@ -9,6 +9,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Vitória Avany Gallo Motta
 * Allan Guilherme Gomes Pego
 * Letícia Guimarães Pedrosa
+* Bernardo Ribeiro Martins
 
 ## Professores responsáveis
 
