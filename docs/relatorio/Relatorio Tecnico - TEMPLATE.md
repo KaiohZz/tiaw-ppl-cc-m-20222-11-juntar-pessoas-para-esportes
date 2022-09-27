@@ -72,6 +72,8 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
  
 # Especificações do Projeto
+ Nessa parte da documentação vamos falar sobre as personas e o mapa de empatia, histórias de usuários, requisitos e restrições. utilizou-se ferramentas virtuais
+ como o miro para a concepção das personas.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
