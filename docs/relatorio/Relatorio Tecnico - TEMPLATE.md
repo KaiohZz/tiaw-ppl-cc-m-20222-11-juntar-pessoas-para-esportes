@@ -94,16 +94,16 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 |objetivos chaves | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
 	
 	
-| persona 2 |
-|-----------|---------------------------------------------------------------------------------------------|
-| nome | Guilherme|
-| idade | 35 anos|
-| hobby | pratica de futebol e ir ao estádio|
-| trabalho | escritório |
-| personalidade | estável |
-| sonhos | maior realização profissional e maior qualidade de vida|
-| objetos e lugares | utiliza muito o smartphone, possui pc, mas não utiliza muito|
-|objetivos chaves | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento|
+| persona 2 	   |
+|------------------|---------------------------------------------------------------------------------------------|
+| nome             | Guilherme|
+| idade            | 35 anos|
+| hobby            | pratica de futebol e ir ao estádio|
+| trabalho         | escritório |
+| personalidade    | estável |
+| sonhos           | maior realização profissional e maior qualidade de vida|
+| objetos e lugares| utiliza muito o smartphone, possui pc, mas não utiliza muito|
+|objetivos chaves  | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento|
 > 
 > 
 > **Exemplo de Persona**
