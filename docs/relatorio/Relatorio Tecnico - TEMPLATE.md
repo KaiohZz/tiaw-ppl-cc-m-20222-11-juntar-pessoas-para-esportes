@@ -81,6 +81,27 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
 Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
 	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
+	
+	| persona 1 |
+	| nome | adriano |
+	| idade | 44 anos|
+	| hobby | pratica de esportes ao ar livre, gosta de reuinir com amigos para jogar|
+	| trabalho | vigilante |
+	| personalidade | influenciador |
+	| sonhos | passar mais tempo com a família, cuidar melhor da saúde física e mental|
+	| objetos e lugares | tem um contato social muito forte e tem uma barreira para uso de novas tecnologias|
+	objetivos chaves | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
+	
+	
+	| persona 2 |
+	| nome | Guilherme|
+	| idade | 35 anos|
+	| hobby | pratica de futebol e ir ao estádio|
+	| trabalho | escritório |
+	| personalidade | estável |
+	| sonhos | maior realização profissional e maior qualidade de vida|
+	| objetos e lugares | utiliza muito o smartphone, possui pc, mas não utiliza muito|
+	objetivos chaves | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento|
 > 
 > 
 > **Exemplo de Persona**
