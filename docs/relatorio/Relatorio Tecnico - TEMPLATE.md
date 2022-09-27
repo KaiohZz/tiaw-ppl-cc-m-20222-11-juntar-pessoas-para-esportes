@@ -52,18 +52,19 @@ Curso Ciência da Computação
   Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas sente em organizar e combinar práticas esportivas.
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas encontra em encontrar parceiros e marcar práticas esportivas.
 
 ## Objetivos
-O objetivo geral deste trabalho é a criação de um site que facilite a organização e a marcação de práticas esportivas.
+O objetivo geral deste trabalho é a criação de um app que facilite a organização e a marcação de práticas esportivas.
 
 Como objetivos específicos, podemos ressaltar:
-  - Fornecer diversas opções ao usuário de eventos para a realização de esportes;
-  - Possibilitar ao usuário a criaação de eventos para práicas esportivas.
+  - Fornecer diversas opções ao usuário de eventos para a realização de esportes.
+  - Possibilitar ao usuário a criação de eventos para práicas esportivas.
+  - Encontrar novos parceiros de jogo.
 
 
 ## Justificativa
-Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Assim, é fundamental a criação de um ambiente que minimize esses impasses e que corrobore o encontro de pessoas com interesses similares.
+Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Portanto decidimos criar de um ambiente que favoreça encontro de pessoas com interesses similares e auxilie na organização dos eventos.
 
 
 ## Público-Alvo
@@ -71,8 +72,6 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
  
 # Especificações do Projeto
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -113,8 +112,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | encontrar novos parceiros          | networking para futuras partidas       |
+|Usuário do sistema  | marcar horario para nova partida   | praticar esportes                      |
+|Usuário do sistema  | consultar partidas diponíveis      | encontrar um horário viável            |
+|Usuário do sistema  | confirmar a presença em uma partida| praticar esportes                      |
+|Usuário do sistema  | cancelar a presença em uma partida | caso algum imprevisto ocorra           |
+|Usuário do sistema  | consultar minhas partidas          | lembrar dos jogos marcados             |
+|Administrador       | Alterar permissões                 | administrar contas                     |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -231,13 +235,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Metodologia
 
 > A metodologia escolhida pelo grupo é o scrum que tem como pilares:
-> comunicação — indivíduos e interações são mais que processos e ferramentas;
-> praticidade — softwares em funcionamento são mais que documentação abrangente;
-> colaboração — a colaboração com o cliente é mais que a negociação de contratos;
-> adaptabilidade e flexibilidade — responder a mudanças é mais que seguir um plano.
+> - comunicação — indivíduos e interações são mais que processos e ferramentas;
+> - praticidade — softwares em funcionamento são mais que documentação abrangente;
+> - colaboração — a colaboração com o cliente é mais que a negociação de contratos;
+> - adaptabilidade e flexibilidade — responder a mudanças é mais que seguir um plano.
 > 
-> As ferramentas utilizadas são: backlog e scrum board.
-> Os ritos são: sprint planing, stand up meeting e sprint review.
+> ** As ferramentas utilizadas são: **
+> - Backlog
+> - Scrum board
+>
+> ** Os ritos são: ** 
+> - Sprint planing
+> - Stand up meeting
+> - Sprint review
 >
 > 
 > **Links Úteis**:
@@ -248,10 +258,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-> O grupo possue seis integrantes:
-> um product owner, reposável por manter o backlog atualizado e definir as histórias da sprint.
-> um scrum master, responsável pela manutenção dos ritos e divisão de tarefas entre a equipe.
-> 
+> ** O grupo possue seis integrantes: **
+> - Um product owner, reposável por manter o backlog atualizado e definir as histórias da sprint
+> - Um scrum master, responsável pela manutenção dos ritos e divisão de tarefas entre a equipe
+> - Quatro desenvolvedores / designers
+>
 >
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -260,7 +271,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
@@ -273,16 +283,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > As ferramentas empregadas no projeto são:
 > 
 > - Editor de código: vim e vscode
-> - Ferramentas de comunicação: whats app
-> - Ferramentas de diagramação: miro 
-> - Plataforma de hospedagem: herokuapp
-> 
 > O editor vscode foi escolhido porque ele possui uma integração com o sistema de versão.
 > O editor vim foi escolhido por apresentar grande estabilidade e confiabilidade.
+> - Ferramentas de comunicação: whats app
 > A ferramenta de comunicação whats app foi escolhida uma vez que ela já está fortemente
 > ligada ao dia a dia dos participantes. 
-> Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as
+> - Ferramentas de diagramação: miro 
+> Para criar diagramas utilizamos essa ferramenta por melhor captar as
 > necessidades da nossa solução.
+> - Plataforma de hospedagem: herokuapp
+> Escolhida por ser uma hospedagem gratuita de fácil utilização. 
 > 
 > **Links Úteis - Hospedagem**:
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
