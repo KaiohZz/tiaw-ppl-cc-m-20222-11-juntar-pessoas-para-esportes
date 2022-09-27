@@ -82,7 +82,7 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
 	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
 	
-| persona 1                                                                                                        |
+| PERSONA| Persona 1                                                                                               |
 |------------------|-----------------------------------------------------------------------------------------------|
 | nome             | adriano                                                                                       |
 | idade            | 44 anos                                                                                       |
@@ -94,7 +94,7 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 |objetivos chaves  | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
 	
 	
-| persona 2 	                                                                                                 |
+| PERSONA| persona 2 	                                                                                         |
 |------------------|---------------------------------------------------------------------------------------------|
 | nome             | Guilherme                                                                                   |
 | idade            | 35 anos                                                                                     |
