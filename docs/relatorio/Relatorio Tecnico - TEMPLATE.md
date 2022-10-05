@@ -110,15 +110,21 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | encontrar novos parceiros          | networking para futuras partidas       |
-|Usuário do sistema  | marcar horario para nova partida   | praticar esportes                      |
-|Usuário do sistema  | consultar partidas diponíveis      | encontrar um horário viável            |
-|Usuário do sistema  | confirmar a presença em uma partida| praticar esportes                      |
-|Usuário do sistema  | cancelar a presença em uma partida | caso algum imprevisto ocorra           |
-|Usuário do sistema  | consultar minhas partidas          | lembrar dos jogos marcados             |
-|Administrador       | Alterar permissões                 | administrar contas                     |
+   |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+   |--------------------|------------------------------------|----------------------------------------|
+1  |Usuário do sistema  | exibir perfil                      | Encontrar novos parceiros              |
+2  |Usuário do sistema  | cadastrar novo local de partida    | praticar esportes                      |
+3  |Usuário do sistema  | cadastrar nova partida             | praticar esportes                      |
+4  |Usuário do sistema  | consultar partidas diponíveis      | encontrar um horário viável            |
+5  |Usuário do sistema  | confirmar a presença em uma partida| praticar esportes                      |
+6  |Usuário do sistema  | cancelar a presença em uma partida | caso algum imprevisto ocorra           |
+7  |Usuário do sistema  | consultar minhas partidas          | lembrar dos jogos marcados             |
+8  |Usuário do sistema  | Eventos em alta                    | lembrar dos jogos marcados             |
+9  |Usuário do sistema  | Avaliar eventos passados           | ajudar usuarios e escolhoer eventos    |
+10 |Usuário do sistema  | Exibir detalhes do evento          |                                        |
+11 |Usuário do sistema  | Avaliar  participantes             | ajudar usuarios e escolhoer eventos    |
+12 |Usuário do sistema  | Editar detalhes do evento          | ajudar usuarios e escolhoer eventos    |
+1  |Administrador       | Alterar permissões                 | administrar contas                     |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
