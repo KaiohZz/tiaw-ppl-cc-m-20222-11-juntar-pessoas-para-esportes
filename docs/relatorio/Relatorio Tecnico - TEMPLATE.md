@@ -72,6 +72,8 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
  
 # Especificações do Projeto
+ Nessa parte da documentação vamos falar sobre as personas e o mapa de empatia, histórias de usuários, requisitos e restrições. utilizou-se ferramentas virtuais
+ como o miro para a concepção das personas.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -81,29 +83,34 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
 Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
 	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
+	
+| PERSONA| Persona 1                                                                                               |
+|------------------|-----------------------------------------------------------------------------------------------|
+| nome             | adriano                                                                                       |
+| idade            | 44 anos                                                                                       |
+| hobby            | pratica de esportes ao ar livre, gosta de reuinir com amigos para jogar                       |
+| trabalho         | vigilante                                                                                     |
+| personalidade    | influenciador                                                                                 |
+| sonhos           | passar mais tempo com a família, cuidar melhor da saúde física e mental                       |
+| objetos e lugares| tem um contato social muito forte e tem uma barreira para uso de novas tecnologias            |
+|objetivos chaves  | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
+	
+	
+| PERSONA| persona 2 	                                                                                           |
+|------------------|-----------------------------------------------------------------------------------------------|
+| nome             | Guilherme                                                                                     |
+| idade            | 35 anos                                                                                       |
+| hobby            | pratica de futebol e ir ao estádio                                                            |
+| trabalho         | escritório                                                                                    |
+| personalidade    | estável                                                                                       |
+| sonhos           | maior realização profissional e maior qualidade de vida                                       |
+| objetos e lugares| utiliza muito o smartphone, possui pc, mas não utiliza muito                                  |
+|objetivos chaves  | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento         |
 > 
 > 
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
@@ -126,16 +133,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 12 |Usuário do sistema  | Editar detalhes do evento          | ajudar usuarios e escolhoer eventos    |
 1  |Administrador       | Alterar permissões                 | administrar contas                     |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -186,14 +183,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
@@ -280,10 +269,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPXvl5UI=/?share_link_id=689205176516 | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX |
+|quadro interátivo para kanban | trello | https://trello.com/invite/b/vBmy2Xzy/9f66c0234cabedc15be91518a86a8708/sports-match |
 
 > 
 > As ferramentas empregadas no projeto são:
