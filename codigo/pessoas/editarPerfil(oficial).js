@@ -1,35 +1,9 @@
-var db_mock_contatos = {
-  "data": [
-    {
-      "id": 1,
-      "nome": "joão",
-      "idade": "23",
-      "contato": "91233-9999",
-      "esporte favorito": "futebol"
-    },
-    {
-      "id": 2,
-      "nome": "carlos",
-      "idade": "24",
-      "contato": "12456-9876",
-      "esporte favorito": "volei"
-    },
-    {
-      "id": 3,
-      "nome": "joana",
-      "idade": "28",
-      "contato": "12798-0456",
-      "esporte favorito": "handebol"
-    }
-  ]
-}
-
 function leituraDados () {
-  let strDados = localStorage.getItem('db');
-  let objDados = {};
-
+  let strDados = localStorage.getItem('dbPessoas')
+  let objDados = {}
+  console.log(strDados)
   if (strDados) {
-      objDados = JSON.parse (strDados);
+      objDados = JSON.parse (strDados)
   }
   else {
       objDados = { contatos: [ 
@@ -39,31 +13,28 @@ function leituraDados () {
                   ]}
   }
 
-  return objDados;
+  return objDados
 }
 
 function salvaDados (dados) {
-  localStorage.setItem ('db', JSON.stringify (dados));
+  localStorage.setItem ('dbPessoas', JSON.stringify (dados))
 }
 
 function imprimeDados () {
   let tela = document.getElementById('tela');
   let strHtml = '';
-  let objDados = leDados ();
-
+  let objDados = leituraDados ()
   for (i=0; i< objDados.contatos.length; i++) {
-      strHtml += `<p>${objDados.contatos[i].nome} - ${objDados.contatos[i].contato} -${objDados.contatos[i].idade} -
-      ${objDados.contatos[i].esporteFavoritos}</p>`
+      strHtml += `<p>${objDados.contatos[i].nome} - ${objDados.contatos[i].telefone} -${objDados.contatos[i].idade} -
+      ${objDados.contatos[i].esportefavorito}</p>`
   }
-
+  console.log('oi')
   tela.innerHTML = strHtml;
 }
 
 function incluirNovoContato (){
-  // Ler os dados do localStorage
   let objDados = leituraDados();
 
-  // Incluir um novo contato
   let strNome = document.getElementById ('campoNome').value;
   let strContato = document.getElementById ('campoTelefone').value;
   let strIdade = document.getElementById ('campoIdade').value;
@@ -72,21 +43,14 @@ function incluirNovoContato (){
       nome: strNome,
       telefone: strContato,
       idade: strIdade,
-      esporteFavoritos: strEsporteFavoritos
+      esportefavorito: strEsporteFavoritos
   };
   objDados.contatos.push (novoContato);
 
-  // Salvar os dados no localStorage novamente
   salvaDados (objDados);
 
-  // Atualiza os dados da tela
   imprimeDados ();
 }
-
-var db = JSON.parse(localStorage.getItem('db_mock_contato'));
-if (!db) {
-    db = db_contatos_inicial
-};
 
 function updateContato(id, contato) 
 {
@@ -117,6 +81,41 @@ function deleteContato(id)
     localStorage.setItem('db_contato', JSON.stringify(db));
 }
 
-// Configura os botões
-document.getElementById ('btnCarregaDados').addEventListener ('click', imprimeDados);
-document.getElementById ('btnIncluirContato').addEventListener ('click', incluirContato);
+document.getElementById ('carregaPessoas').addEventListener ('click', imprimeDados);
+document.getElementById ('salvar').addEventListener ('click', incluirNovoContato);
+document.getElementById('campoTelefone').addEventListener('input', function (e) {
+  var x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,5})(\d{0,4})/);
+  e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+});
+
+
+
+// var db = JSON.parse(localStorage.getItem('db_mock_contato'));
+// if (!db) {
+//     db = db_contatos_inicial
+// };
+// var db_mock_contatos = {
+//   "data": [
+//     {
+//       "id": 1,
+//       "nome": "joão",
+//       "idade": "23",
+//       "contato": "91233-9999",
+//       "esporte favorito": "futebol"
+//     },
+//     {
+//       "id": 2,
+//       "nome": "carlos",
+//       "idade": "24",
+//       "contato": "12456-9876",
+//       "esporte favorito": "volei"
+//     },
+//     {
+//       "id": 3,
+//       "nome": "joana",
+//       "idade": "28",
+//       "contato": "12798-0456",
+//       "esporte favorito": "handebol"
+//     }
+//   ]
+// }
