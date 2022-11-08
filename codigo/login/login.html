@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+	<div id="login">
+		<h3 class="text-center text-white pt-5">Novo Usuário</h3>
+		<div class="container">
+			<div id="login-row" class="row justify-content-center align-items-center">
+				<div id="login-column" class="col-md-6">
+					<div id="login-box" class="col-md-12">
+						<form id="login-form" class="form" method="post">
+							<h3 class="text-center text-info">Login</h3>
+                            <label for="cars">Choose a user:</label>
+                                <select id="users">
+                                    <option value="user1">user1</option>
+                                    <option value="user2">user2</option>
+                                    <option value="user3">user3</option>
+                                    <option value="user4">user4</option>
+                                </select>
+                            <div class="form-group text-right">
+                                <button onclick="loginUser()">Entrar</button>                               
+                            </div>
+                        </form>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Novo usuario</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="login.js"></script>   
+</body>
+</html>
