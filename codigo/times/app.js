@@ -1,5 +1,6 @@
 function leDados () {
     let strDados = localStorage.getItem('db')
+    console.log(strDados)
     let objDados = {}
     if (strDados) {
         objDados = JSON.parse (strDados)
@@ -60,14 +61,14 @@ function salvarTime(){
                         integrante4
                      ]
     };
-    objDados.times.push (novoTime)
-    salvaDados (objDados)
-    imprimeDados ()
+    objDados.times.push(novoTime)
+    salvaDados(objDados)
+    imprimeDados()
 }
 function imprimeDados () {
     let tela = document.getElementById('tela')
     let template = ''
-    let objDados = leDados ()
+    let objDados = leDados()
     for (i=0; i< objDados.times.length; i++)
         template += `<p class="card">
                         Time: ${objDados.times[i].nome}
