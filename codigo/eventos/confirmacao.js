@@ -1,4 +1,4 @@
-/*
+
 function leDados () {
     let strDados = localStorage.getItem('db');
     let objDados = {};
@@ -54,5 +54,5 @@ function imprimeDados () {
 // Configura os botões
 document.getElementById ('btnCarregaDados').addEventListener ('click', window. history. back());
 document.getElementById ('btnConfirmapresenca').addEventListener ('click', confirmapresenca);
-*/
+
 
