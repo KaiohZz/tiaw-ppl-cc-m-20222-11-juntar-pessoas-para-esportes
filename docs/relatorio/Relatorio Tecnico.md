@@ -37,7 +37,6 @@ Curso Ciência da Computação
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -119,8 +118,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
    |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
    |--------------------|------------------------------------|----------------------------------------|
-1  |Usuário do sistema  | exibir perfil                      | Encontrar novos parceiros              |
-2  |Usuário do sistema  | cadastrar novo local de partida    | praticar esportes                      |
+   |Usuário do sistema  | fazer login                        | Utilizar a plataforma                  |
+1  |Usuário do sistema  | exibir/editar perfil               | Encontrar novos parceiros              |
+2  |Usuário do sistema  | cadastrar/editar novo local        | marcar eventos                         |
 3  |Usuário do sistema  | cadastrar nova partida             | praticar esportes                      |
 4  |Usuário do sistema  | consultar partidas diponíveis      | encontrar um horário viável            |
 5  |Usuário do sistema  | confirmar a presença em uma partida| praticar esportes                      |
