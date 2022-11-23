@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+    <style>
+        .form{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+          }
+          .titulo{
+            color: darkslategrey;
+          }
+          #users{
+            display: block;
+            margin: 20px;
+          }
+    </style>
+    <!-- <script src="editarPerfil(oficial).js" async></script> -->
+</head>
+<body>
+	<div>
+		<div class="container">
+            <div class="form">
+                <h1 class="titulo">Login</h1>
+                <label for="users">Choose a user:</label>
+                <select id="users">
+                    <option value="user1">user1</option>
+                    <option value="user2">user2</option>
+                    <option value="user3">user3</option>
+                    <option value="user4">user4</option>
+                </select>
+                <div>
+                    <button onclick="loginUser()">Entrar</button>                               
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function loginUser (login, senha) {
+            let x = document.getElementById("users");
+            console.log(x.value)
+        }
+    </script>
+</body>
+</html>
