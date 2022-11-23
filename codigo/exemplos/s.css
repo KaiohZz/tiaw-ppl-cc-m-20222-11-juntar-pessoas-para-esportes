@@ -1,0 +1,41 @@
+body, html{
+    background-color: #00A19B;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    background-color: lightgray;
+    width: 60%;
+    height: 100vh;
+    border: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.card{
+    display: block;
+    height: 10vh;
+    background-color: rgb(233, 233, 233);
+    border-radius: 1rem;
+    box-shadow: 3px 5px 20px 10px #888888;
+}
+.card:active {
+  transform: translateY(4px);
+}
+.item{
+    margin-top: 2rem;
+    display: block;
+    height: 10vh;
+    background-color: rgb(240, 146, 146);
+    border-radius: 1rem;
+    box-shadow: 3px 5px 20px 10px #888888;
+}
+
+/* 
+border:3px solid black;
+.card:hover {
+    background-color: #3e8e41
+}
+*/

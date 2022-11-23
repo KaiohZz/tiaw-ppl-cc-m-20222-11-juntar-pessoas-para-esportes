@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .quad{
+                width: 5rem;
+                height: 5rem;
+                background-color: crimson;
+            }
+            body{
+                padding: 3rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="quad" id="rotate2D" onmouseover="rotateDIV()"></div>
+        
+    </body>
+    <script>
+        var x,y,n=0,ny=0,rotINT,rotYINT
+        function att(){
+            console.log('ola')
+        }
+        function rotateDIV()
+        {
+            x=document.getElementById("rotate2D")
+            clearInterval(rotINT)
+            rotINT=setInterval("startRotate()",10)
+        }
+        function startRotate()
+        {
+            n=n+1
+            x.style.transform="rotate(" + n + "deg)"
+            x.style.webkitTransform="rotate(" + n + "deg)"
+            x.style.OTransform="rotate(" + n + "deg)"
+            x.style.MozTransform="rotate(" + n + "deg)"
+            if (n==180 || n==360)
+            {
+                clearInterval(rotINT)
+                if (n==360){n=0}
+            }
+        }
+    </script>
+</html>

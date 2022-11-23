@@ -41,9 +41,6 @@ function leDados () {
     }
     return objDados
 }
-function salvaDados (dados) {
-    localStorage.setItem ('db', JSON.stringify (dados))
-}
 function salvarTime(){
     let objDados = leDados()
     let time = document.getElementById ('time').value
@@ -62,7 +59,7 @@ function salvarTime(){
                      ]
     };
     objDados.times.push(novoTime)
-    salvaDados(objDados)
+    localStorage.setItem ('db', JSON.stringify (objDados))
     imprimeDados()
 }
 function imprimeDados () {

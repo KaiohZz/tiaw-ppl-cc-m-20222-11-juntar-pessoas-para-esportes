@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    border: 0px;
+    font-family: Arial;
+}
+.tela{
+    background-color: aqua;
+    color: rgb(27, 42, 42);
+    margin: 0px;
+    border: 0px;
+    height: 100vh;
+    font-size: 50px;
+}
+.header{
+    background-color: blueviolet;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 90vh;
+    background-color: coral;
+}
+.titulo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+select {
+    font-size: 2rem;
+    padding: 2px 5px;
+    border-radius: 0.5rem;
+    border:0px;
+    outline:none;
+}
+.opcao{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(144, 144, 181);
+    border: 0px;
+}

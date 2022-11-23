@@ -1,49 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
-    <style>
-        .form{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
-          }
-          .titulo{
-            color: darkslategrey;
-          }
-          #users{
-            display: block;
-            margin: 20px;
-          }
-    </style>
-    <!-- <script src="editarPerfil(oficial).js" async></script> -->
-</head>
-<body>
-	<div>
-		<div class="container">
-            <div class="form">
-                <h1 class="titulo">Login</h1>
-                <label for="users">Choose a user:</label>
-                <select id="users">
-                    <option value="user1">user1</option>
-                    <option value="user2">user2</option>
-                    <option value="user3">user3</option>
-                    <option value="user4">user4</option>
-                </select>
-                <div>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" async></script>
+        <title>Sport Match</title>
+    </head>
+    <body>
+        <div class="tela">
+            <div class="header">Sport Match</div>
+            <div class="content">
+                <div class="titulo">Login</div>
+                <div class="label">Choose a user:</div>
+                <div class="opcao">
+                    <select id="user">
+                        <option value="user1">user 1</option>
+                        <option value="user2">user 2</option>
+                        <option value="user3">user 3</option>
+                        <option value="user4">user 4</option>
+                    </select>
+                </div>
+                <div class="botao">
                     <button onclick="loginUser()">Entrar</button>                               
                 </div>
             </div>
         </div>
-    </div>
-    <script>
-        function loginUser (login, senha) {
-            let x = document.getElementById("users");
-            console.log(x.value)
-        }
-    </script>
-</body>
+    </body>
 </html>

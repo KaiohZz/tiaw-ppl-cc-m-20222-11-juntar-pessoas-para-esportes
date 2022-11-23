@@ -1,58 +1,63 @@
-function leDados () {
-    let strDados = localStorage.getItem('db');
-    let objDados = {};
-
-    if (strDados) {
-        objDados = JSON.parse (strDados);
-    }
-    else {
-        objDados = { contatos: [ 
-                        {nome: "João da Silva", telefone: "31-98795-5587"}, 
-                        {nome: "Maria das Graças", telefone: "31-98795-5547"}, 
-                        {nome: "Pedro Gomes", telefone: "31-98795-6577"} 
-                    ]}
-    }
-
-    return objDados;
+var db_default = {
+    matches: [
+        {
+            id: 1,
+            name:"partida teste",
+            sportId: 1,
+            date:"10/10/2022",
+            placeId: 1,
+            playerIds: [1,2,3]
+        }
+    ],
+    places: [
+        {id:1, name:"Arena tupinambas"},
+        {id:2, name:"Pé na areia"},
+        {id:3, name:"Ginásio Orion"}
+    ],
+    users: [
+        {id:1, name:"user 1"},
+        {id:2, name:"user 2"},
+        {id:3, name:"user 3"},
+        {id:3, name:"user 4"}
+    ],
+    sports: [
+        {id:1, name:"Futebol"},
+        {id:2, name:"Beach Tennis"},
+        {id:3, name:"Volei"}
+    ]
 }
-
-function salvaDados (dados) {
-    localStorage.setItem ('db', JSON.stringify (dados));
+let db = JSON.parse(localStorage.getItem('db'));
+function log(){
+    console.log(sessionStorage)
+    console.log(localStorage)
+    console.log(db)
 }
-
-function incluirContato (){
-    // Ler os dados do localStorage
-    let objDados = leDados();
-
-    // Incluir um novo contato
-    let strNome = document.getElementById ('campoNome').value;
-    let strTelefone = document.getElementById ('campoTelefone').value;
-    let novoContato = {
-        nome: strNome,
-        telefone: strTelefone
+function limpar(){
+    localStorage.clear()
+    sessionStorage.clear()
+    db = null;
+}
+function load(){
+    if (!db) {
+        db = db_default
     };
-    objDados.contatos.push (novoContato);
-
-    // Salvar os dados no localStorage novamente
-    salvaDados (objDados);
-
-    // Atualiza os dados da tela
-    imprimeDados ();
+    localStorage.setItem ('db', JSON.stringify (db))
 }
-
-function imprimeDados () {
-    let tela = document.getElementById('tela');
-    let strHtml = '';
-    let objDados = leDados ();
-
-    for (i=0; i< objDados.contatos.length; i++) {
-        strHtml += `<p>${objDados.contatos[i].nome} - ${objDados.contatos[i].telefone}</p>`
-    }
-
-    tela.innerHTML = strHtml;
+function eventos(){
+    let eventos = document.getElementById('eventos')
+    let template = ''
+    for (let i = 0; i < db.matches.length; i++)
+        template += `<div class="card">
+                        Desc: ${db.matches[i].name}
+                        <br>
+                        Modalidade: ${db.sports[db.matches[i].sportId].name}
+                        <br>
+                        Date: ${db.matches[i].date}
+                        <br>
+                        Local: ${db.places[db.matches[i].placeId].name}
+                        <br>
+                        Integrantes: ${db.matches[i].playerIds}
+                    </div>`
+                    console.log('oi')
+                    eventos.innerHTML = template
 }
-
-// Configura os botões
-document.getElementById ('btnCarregaDados').addEventListener ('click', imprimeDados);
-document.getElementById ('btnIncluirContato').addEventListener ('click', incluirContato);
-
