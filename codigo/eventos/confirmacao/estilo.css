@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; background-color: red;
+}
+
+#tela {
+    background-color:aquamarine;
+}
+.card-img-top{max-width: 400px;max-height: 200px;}
