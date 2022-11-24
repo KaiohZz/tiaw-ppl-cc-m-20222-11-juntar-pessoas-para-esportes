@@ -1,4 +1,4 @@
-
+localStorage.clear()
 function leDados () {
     let strDados = localStorage.getItem('db');
     let objDados = {};
