@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(158, 196, 158);
+}
+img{
+    height: 4cm;
+}
+.card-body{
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+}
