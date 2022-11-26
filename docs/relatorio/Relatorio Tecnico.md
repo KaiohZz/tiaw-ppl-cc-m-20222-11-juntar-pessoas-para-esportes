@@ -106,7 +106,8 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Exemplo de Persona](imaages/../images/persona1.png)
+> ![Exemplo de Persona](imaages/../images/persona2.png)
 
 
 ## Histórias de Usuários
