@@ -218,34 +218,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-> A metodologia escolhida pelo grupo é o scrum que tem como pilares:
-> - comunicação — indivíduos e interações são mais que processos e ferramentas;
-> - praticidade — softwares em funcionamento são mais que documentação abrangente;
-> - colaboração — a colaboração com o cliente é mais que a negociação de contratos;
-> - adaptabilidade e flexibilidade — responder a mudanças é mais que seguir um plano.
-> 
-> ** As ferramentas utilizadas são: **
-> - Backlog
-> - Scrum board
->
-> ** Os ritos são: ** 
-> - Sprint planing
-> - Stand up meeting
-> - Sprint review
->
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+> A metodologia do processo se baseia na organização do grupo e nas ferramentas utilizadas para a realização do trabalho.
 
 ## Divisão de Papéis
 
 > ** O grupo possue seis integrantes: **
-> - Um product owner, reposável por manter o backlog atualizado e definir as histórias da sprint
-> - Um scrum master, responsável pela manutenção dos ritos e divisão de tarefas entre a equipe
-> - Quatro desenvolvedores / designers
+>
 >
 >
 > **Links Úteis**:
