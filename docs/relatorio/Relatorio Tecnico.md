@@ -90,7 +90,8 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 | sonhos           | passar mais tempo com a família, cuidar melhor da saúde física e mental                       |
 | objetos e lugares| tem um contato social muito forte e tem uma barreira para uso de novas tecnologias            |
 |objetivos chaves  | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
-	
+
+> ![Exemplo de Persona](images/Persona1.jpeg)
 	
 | PERSONA| persona 2 	                                                                                           |
 |------------------|-----------------------------------------------------------------------------------------------|
@@ -102,12 +103,11 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 | sonhos           | maior realização profissional e maior qualidade de vida                                       |
 | objetos e lugares| utiliza muito o smartphone, possui pc, mas não utiliza muito                                  |
 |objetivos chaves  | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento         |
+
+> ![Exemplo de Persona](images/Persona2.jpeg)
 > 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/Persona1.jpeg)
-> ![Exemplo de Persona](imaages/../images/Persona2.png)
+
+
 
 
 ## Histórias de Usuários
