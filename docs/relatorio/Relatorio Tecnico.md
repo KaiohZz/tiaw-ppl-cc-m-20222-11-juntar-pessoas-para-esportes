@@ -143,8 +143,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Confirmar e cancelar presença | BAIXA | 
+|RF-002| Editar perfil | MÉDIA |
+|RF-003| Exibir perfil | MÉDIA |
+|RF-004| Cadastar local | ALTA |
+|RF-005| Cadastrar evento | ALTA |
+|RF-006| Consultar minhas partidas | MÉDIA |
+|RF-007| Exibir evento | ALTA |
+|RF-008| Exibir local | ALTA |
+|RF-009| Cadastrar time | BAIXA |
+|RF-010| Eventos em Alta | BAIXA |
+|RF-011| Exibir detalhes do evento | MÉDIA |
+|RF-012| Exibir detalhes do local | BAIXA |
 
 
 ### Requisitos não Funcionais
