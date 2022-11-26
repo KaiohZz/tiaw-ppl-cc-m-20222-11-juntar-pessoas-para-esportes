@@ -243,7 +243,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Hospedagem do site | Heroku | https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://marvelapp.com/prototype/e2chaa3/screen/88748564 |
 |quadro interátivo para kanban | trello | https://trello.com/invite/b/vBmy2Xzy/9f66c0234cabedc15be91518a86a8708/sports-match |
-
 > 
 > As ferramentas empregadas no projeto são:
 > 
