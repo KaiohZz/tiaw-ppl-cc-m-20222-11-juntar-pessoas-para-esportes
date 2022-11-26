@@ -221,18 +221,27 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > A metodologia do processo se baseia na organização do grupo e nas ferramentas utilizadas para a realização do trabalho.
 
 ## Divisão de Papéis
+Allan Guilherme Gomes Pego</li>
+  <li>Bernardo Ribeiro Martins</li>
+  <li>Felipe Assis Michalaros </li>
+  <li>Leticia Guimarães Pedrosa</li>
+  <li>Pedro Augusto Etelvino Albuquerque </li>
+  <li>Vitoria Avany Gallo Motta </li>
 
-> ** O grupo possue seis integrantes: **
->
->
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+> O grupo possui seis integrantes: 
+> 
+| Aluno  | Função              |
+|-----------|-------------------------|
+| Allan Guilherme Gomes Pego  | Front-End |
+| Bernardo Ribeiro Martins  | Front-End | 
+| Felipe Assis Michalaros | Front-End |
+| Leticia Guimarães Pedrosa | Design & Organiza funções e horários |
+| Pedro Augusto Etelvino Albuquerque  | Design & Organiza funções e horários |
+| Vitoria Avany Gallo Motta | Front-End |
+
 
 
 ## Ferramentas
-
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
