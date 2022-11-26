@@ -78,7 +78,9 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 ## Personas e Mapas de Empatia
 
 Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
-	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa. 
+	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa.
+
+# Persona 1
 	
 | PERSONA| Persona 1                                                                                               |
 |------------------|-----------------------------------------------------------------------------------------------|
@@ -91,7 +93,10 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 | objetos e lugares| tem um contato social muito forte e tem uma barreira para uso de novas tecnologias            |
 |objetivos chaves  | melhor organizar os pagamentos recebidos para quitação da quadra e ter mais tempo para hobbies|
 
+
 > ![Exemplo de Persona](images/Persona1.png)
+
+# Persona 2
 	
 | PERSONA| persona 2 	                                                                                           |
 |------------------|-----------------------------------------------------------------------------------------------|
@@ -104,11 +109,9 @@ Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas 
 | objetos e lugares| utiliza muito o smartphone, possui pc, mas não utiliza muito                                  |
 |objetivos chaves  | diminuir o tempo de planejamento do evento esportivo e mais tempo realizando o evento         |
 
+
 > ![Exemplo de Persona](images/Persona2.png)
 > 
-
-
-
 
 ## Histórias de Usuários
 
