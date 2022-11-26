@@ -259,14 +259,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - Plataforma de hospedagem: herokuapp
 > Escolhida por ser uma hospedagem gratuita de fácil utilização. 
 > 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
-
 
 > O projeto está hospedado no github todos os participantes possuem acesso a leitura e 
 > escrita, porem para evitar possiveis problemas com sobreescrita de dados cada colaborador
