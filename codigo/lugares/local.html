@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app1.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Locais</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sport Match</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Locais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Cadastro de Locais</a>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <select id="filtroEsporte" class="form-control me-2" name="esporte" id="esporte">
+                  <option value="0">Filtrar Esportes</option>
+                  <option value="1">Futebol</option>
+                  <option value="2">Vôlei</option>
+                  <option value="3">Basquete</option>
+              </select>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid">
+      <br>
+        <div id="tela" class="row gx-10 gy-5">
+           <!--  <div class="card col-md-3">
+              <br>
+              <img src="https://source.unsplash.com/random/200x200?1" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p id="p1" class="card-text">Esporte - Valor</p>
+                  <p id="p2" class="card-text">Endereco</p>
+                  <p id="p3" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+   
+              <div class="card col-md-3">
+                <br>
+                <img src="https://source.unsplash.com/random/200x200?2" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p id="p1" class="card-text">Esporte - Valor</p>
+                  <p id="p2" class="card-text">Endereco</p>
+                  <p id="p3" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card col-md-3">
+                <br>
+                <img src="https://source.unsplash.com/random/200x200?3" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p id="p1" class="card-text">Esporte - Valor</p>
+                  <p id="p2" class="card-text">Endereco</p>
+                  <p id="p3" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card col-md-3">
+                <br>
+                <img src="https://source.unsplash.com/random/200x200?4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p id="p1" class="card-text">Esporte - Valor</p>
+                  <p id="p2" class="card-text">Endereco</p>
+                  <p id="p3" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card col-md-3" >
+                <br>
+                <img src="https://source.unsplash.com/random/200x200?5" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p id="p1" class="card-text">Esporte - Valor</p>
+                  <p id="p2" class="card-text">Endereco</p>
+                  <p id="p3" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>-->
+        </div> 
+    </div>
+
+    <script src="app2.js"></script>    
+    <script>
+        document.body.onload = () => {
+            let filtroEsporte = document.querySelector('#filtroEsporte')
+            filtroEsporte.addEventListener ('change', ()=> {
+                FILTRO_ESPORTE = filtroEsporte.value
+                exibeLocais()
+            })
+            exibeLocais();
+        }       
+    </script>
+    
+</body>
+</html>
