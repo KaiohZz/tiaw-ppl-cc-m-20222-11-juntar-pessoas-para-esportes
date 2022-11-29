@@ -61,3 +61,7 @@ function eventos(){
                     console.log('oi')
                     eventos.innerHTML = template
 }
+// function nota(nota){
+//     console.log(nota)
+//     ${db.matches[1].name}
+// }
