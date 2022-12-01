@@ -298,11 +298,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nesta seção são apresentados os detalhes técnicos da solução criada pelo grupo, tratando da arquitetura da aoluçãoas, as estruturas de dados e as telas já implementadas.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para implementar a solução do projeto, foram utilizadas as linguagens HTML (HyperText Markup Language) que é o componente básico da web, assim, ele permite inserir o conteúdo e  , CSS e JavaScript.
+
+ O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. 
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
