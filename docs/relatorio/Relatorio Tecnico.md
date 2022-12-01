@@ -48,10 +48,16 @@ Curso Ciência da Computação
 
 
 # Introdução
+atletas
+- saude mental e fisica
+- instrumento de socialização
+espaços
+- divulgação
+
 //Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas tem em encontrar parceiros e marcar práticas esportivas. Por meio, das pesquisas feitas e dos 
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas têm em encontrar parceiros para a realização de atividades físicas e, além disso, marcar(...). Por meio, das pesquisas e entrevistas realizadas pelo grupo, constatou-se a auxência de softwares capazes de conectar pessoas com objetivo similares de forma eficiente. Além disso, é notável a existência de uma grande parcela de pessoas que deixam de exercitar-se por causa desse empecilho.
 
 ## Objetivos
 O objetivo geral deste trabalho é a criação de um app que facilite a organização e a marcação de práticas esportivas.
