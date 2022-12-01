@@ -48,10 +48,10 @@ Curso Ciência da Computação
 
 
 # Introdução
-  Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
+//Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas encontra em encontrar parceiros e marcar práticas esportivas.
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas tem em encontrar parceiros e marcar práticas esportivas. Por meio, das pesquisas feitas e dos 
 
 ## Objetivos
 O objetivo geral deste trabalho é a criação de um app que facilite a organização e a marcação de práticas esportivas.
@@ -63,7 +63,9 @@ Como objetivos específicos, podemos ressaltar:
 
 
 ## Justificativa
-Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Portanto decidimos criar de um ambiente que favoreça encontro de pessoas com interesses similares e auxilie na organização dos eventos.
+De acordo com o IBGE, Instituto Brasileiro de Geografia e Estatística, 40,3% dos adultos são considerados sedentários no Brasil. Este dado comprova que grande parte da população necessita de incentivo ou possui dificuldades para realização atividades físicas. As práticas esportivas, mesmo que de forma amadora, são fundamentais à saúde física e mental, em virtude de ser capaz de trazer inúmeros privilégios ao corpo e à mente das pessoas em seu cotidiano, além de reduzir riscos de aparecimento de doenças. Por isso, visando incentivar e facilitar a organização de encontros para práticas esportivas, nós, alunos da PUC Minas, decidimos criar um ambiente que favoreça o encontro de pessoas com interesses similares e auxilie na marcação dos eventos.
+
+// Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Portanto decidimos criar de um ambiente que favoreça encontro de pessoas com interesses similares e auxilie na organização dos eventos.
 
 
 ## Público-Alvo
