@@ -1,99 +1,57 @@
-function leDados () {
-    let strDados = localStorage.getItem('db')
-    console.log(strDados)
-    let objDados = {}
-    if (strDados) {
-        objDados = JSON.parse (strDados)
-    }
-    else {
-        objDados = { times: [ 
-                        {
-                            nome: "ABC do sul",
-                            esporte: "futebol",
-                            integrantes: [
-                                            "paulo otavio",
-                                            "mario nascimento",
-                                            "armado golpe",
-                                            "jose da silva",
-                                         ],
-                        }, 
-                        {
-                            nome: "DEF do leste",
-                            esporte: "volei",
-                            integrantes: [
-                                            "pedro 123 de oliveira 4",
-                                            "mario do armario",
-                                            "armado nascimento",
-                                            "jose da silva",
-                                         ],
-                        }, 
-                        {
-                            nome: "UND do araguari",
-                            esporte: "chádreis",
-                            integrantes: [
-                                            "pedro 123 de oliveira 4",
-                                            "mario do armario",
-                                            "armado nascimento",
-                                            "jose da silva",
-                                         ],
-                        }, 
-                    ]}
-    }
-    return objDados
+load()
+imprimeDados()
+function log() {
+    console.log(localStorage)
+    console.log(db)
 }
-function salvarTime(){
-    let objDados = leDados()
-    let time = document.getElementById ('time').value
-    let esporte = document.getElementById ('esporte').value
-    let integrante1 = document.getElementById ('integrante1').value
-    let integrante2 = document.getElementById ('integrante2').value
-    let integrante3 = document.getElementById ('integrante3').value
-    let integrante4 = document.getElementById ('integrante4').value
+function load() {
+    db = JSON.parse(localStorage.getItem('db'));
+    if (!db) {
+        db = db_default
+        localStorage.setItem('db', JSON.stringify(db))
+    };
+}
+function salvarTime() {
+    let time = document.getElementById('time').value
+    let esporte = document.getElementById('esporte').value
+    let integrante1 = document.getElementById('integrante1').value
+    let integrante2 = document.getElementById('integrante2').value
+    let integrante3 = document.getElementById('integrante3').value
+    let integrante4 = document.getElementById('integrante4').value
     let novoTime = {
         nome: time,
         esporte: esporte,
-        integrantes: [  integrante1,
-                        integrante2,
-                        integrante3,
-                        integrante4
-                     ]
-    };
-    objDados.times.push(novoTime)
-    localStorage.setItem ('db', JSON.stringify (objDados))
+        integrantes: [
+            integrante1,
+            integrante2,
+            integrante3,
+            integrante4
+        ]
+    }
+    db.times.push(novoTime)
+    localStorage.setItem('db', JSON.stringify(db))
     imprimeDados()
 }
-function imprimeDados () {
-    let tela = document.getElementById('tela')
+function imprimeDados() {
+    console.log('aqui')
+    let tela = document.getElementById('cardList')
     let template = ''
-    let objDados = leDados()
-    for (i=0; i< objDados.times.length; i++)
-        template += `<p class="card">
-                        Time: ${objDados.times[i].nome}
+    for (i = 0; i < db.times.length; i++)
+        template += `<div class="card">
+                        Time: ${db.times[i].nome}
                         <br>
-                        Modalidade: ${objDados.times[i].esporte}
+                        Modalidade: ${db.times[i].esporte}
                         <br>
                         Integrantes:
                         <br>
-                       ${objDados.times[i].integrantes[0]}
+                       ${db.times[i].integrantes[0]}
                         <br>
-                        ${objDados.times[i].integrantes[1]}
+                        ${db.times[i].integrantes[1]}
                         <br>
-                        ${objDados.times[i].integrantes[2]}
+                        ${db.times[i].integrantes[2]}
                         <br>
-                        ${objDados.times[i].integrantes[3]}
+                        ${db.times[i].integrantes[3]}
 
-                    </p>`
+                    </div>`
     tela.innerHTML = template
-}
-function resetData(){
-    localStorage.clear()
-    imprimeDados()
-}
-document.getElementById ('consultar').addEventListener ('click', imprimeDados)
-document.getElementById ('salvar').addEventListener ('click', salvarTime)
-document.getElementById ('limpar').addEventListener ('click', resetData)
-function log() {
-    console.log(sessionStorage)
-    console.log(localStorage)
-    console.log(db)
 }
