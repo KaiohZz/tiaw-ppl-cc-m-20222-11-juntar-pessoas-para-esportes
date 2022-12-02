@@ -92,3 +92,8 @@ function resetData(){
 document.getElementById ('consultar').addEventListener ('click', imprimeDados)
 document.getElementById ('salvar').addEventListener ('click', salvarTime)
 document.getElementById ('limpar').addEventListener ('click', resetData)
+function log() {
+    console.log(sessionStorage)
+    console.log(localStorage)
+    console.log(db)
+}

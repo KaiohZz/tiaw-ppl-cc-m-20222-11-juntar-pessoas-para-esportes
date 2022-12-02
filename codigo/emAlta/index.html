@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js" async></script>
-        <title>SportMatch</title>
-    </head>
-    <body>
-        <div class="tela">
-            <div class="header">
-                <div class="head-item">
-                    <a href="../index.html">Sport Match</a>
-                </div>
-                <div class="navigation">
-                    <a href="../emAlta/index.html">Em Alta</a>
-                </div>
-                <div class="navigation">
-                    <a href="../perfil/index.html">Perfil</a>
-                </div>
-                <div class="navigation">
-                    <a href="../pessoas/index.html">Pessoas</a>
-                </div>
-                <div class="navigation">
-                    <a href="../lugares/local.html"> Lugares</a>
-                </div>
-                <div class="navigation">
-                    <a href="../eventos/index.html">Eventos</a>
-                </div>
-                <div class="navigation">
-                    <a href="../times/index.html">Times</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="titulo">Eventos</div>
-                <div id="eventos">eventos</div>
-                <button onclick="log()">log</button>
-                <button onclick="limpar()">clear all</button>
-                <button onclick="load()">load db</button>
-                <button onclick="eventos()">load eventos</button>
 
-                <div class="card">
-                    <div onclick="nota(1)">1</div>
-                    <div onclick="nota(2)">2</div>
-                    <div onclick="nota(3)">3</div>
-                    <div onclick="nota(4)">4</div>
-                    <div onclick="nota(5)">5</div>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="app.js" async></script>
+    <title>SportMatch</title>
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <div class="head-item">
+                <a href="../index.html">Sport Match</a>
+            </div>
+            <div class="navigation">
+                <a href="../emAlta/index.html">Em Alta</a>
+            </div>
+            <div class="navigation">
+                <a href="../perfil/index.html">Perfil</a>
+            </div>
+            <div class="navigation">
+                <a href="../pessoas/index.html">Pessoas</a>
+            </div>
+            <div class="navigation">
+                <a href="../lugares/local.html"> Lugares</a>
+            </div>
+            <div class="navigation">
+                <a href="../eventos/index.html">Eventos</a>
+            </div>
+            <div class="navigation">
+                <a href="../times/index.html">Times</a>
             </div>
         </div>
-    </body>
-</html>
+        <div class="content">
+            <div class="titulo">Eventos</div>
+            <div class="btns">
+                <div onclick="log()">log</div>
+                <div onclick="limpar()">limpar</div>
+                <div onclick="load()">load</div>
+                <div onclick="eventos()">eventos</div>
+            </div>
+            <div id="cardList"></div>
+        </div>
+    </div>
+</body>
 
+</html>
