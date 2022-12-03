@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../app.js" async></script>
+    <script src="place.js" async></script>
+    <title>SportMatch</title>
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <div class="head-item" onclick="paginaLogin()">Sport Match</div>
+            <div class="navigation" onclick="paginaEmAlta()">Em Alta</div>
+            <div class="navigation" onclick="paginaLugares()">Lugares</div>
+            <div class="navigation" onclick="paginaCadastroLugares()">Cadastro de Lugares</div>
+            <div class="navigation" onclick="paginaTimes()">Times</div>
+        </div>
+        <div class="content">
+            <form class="d-flex">
+                <select id="filtroEsporte" class="form-control me-2" name="esporte" id="esporte">
+                    <option value="0">Filtrar Esportes</option>
+                    <option value="1">Futebol</option>
+                    <option value="2">Vôlei</option>
+                    <option value="3">Basquete</option>
+                </select>
+            </form>
+            <br>
+            <br>
+            <div id="tela" class="row gx-10 gy-5">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

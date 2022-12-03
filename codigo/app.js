@@ -1,14 +1,36 @@
-function loginUser(login, senha) {
-    let x = document.getElementById("user");
+// ====== Navigation
+function paginaLogin(){
+    window.location.href='../index.html'
+}
+function paginaEmAlta(){
+    window.location.href='../emAlta/index.html'
+}
+function paginaLugares(){
+    window.location.href='../locais/index.html'
+}
+function paginaCadastroLugares(){
+    window.location.href='../locais/local.html'
+}
+function paginaTimes(){
+    window.location.href='../times/index.html'
+}
+
+
+// ======== Utils
+function loginUser() {
+    let x = document.getElementById("user")
     sessionStorage.setItem('user', x.value)
-    window.location.href = "./emAlta/index.html";
+    window.location.href = "./emAlta/index.html"
 }
 function log() {
-    console.log("session\n" + sessionStorage)
-    console.log("local\n" + localStorage.getItem('db'))
-    console.log("stack\n" + db)
+    console.log("localStorage")
+    console.log(localStorage)
+    console.log("sessionStorage")
+    console.log(sessionStorage)
+    console.log("runtime")
+    console.log(db)
 }
-function clear() {
+function limpar() {
     localStorage.clear()
     sessionStorage.clear()
     db = null;
@@ -126,7 +148,7 @@ const db_default = {
             name: "Quadra Orion Esporte Clube",
             address: "R. Padre Eustáquio, 1489 - Carlos Prates, Belo Horizonte",
             sportId: 4,
-            descricao: "38 mestros de comprimento e 18 de largura",
+            descricao: "38 metros de comprimento e 18 de largura",
             imagem: "../assets/quadra.png"
         },
         {

@@ -9,43 +9,22 @@ paleta
 body{
     margin: 0px;
     border: 0px;
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-select {
-    font-size: 2rem;
-    padding: 2px 5px;
-    border-radius: 0.5rem;
-    border:0px;
-    outline:none;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-button{
-    font-size: 2rem;
-    border-radius: 2rem;
-}
-
 .tela{
     background-color: #749F82;
     margin: 0px;
     border: 0px;
     min-height: 100vh;
-    font-size: 50px;
+    
 }
 .header{
     background-color: #CFFF8D;
     height: 10vh;
     display: flex;
     align-items: center;
-}
-.content{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-bottom: 20vh;
-    background-color: #425F57;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
 }
 .head-item{
     margin: 10px;
@@ -54,7 +33,21 @@ button{
 }
 .navigation{
     margin: 10px;
-    font-size: 20px;
+    font-size: 22px;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 20vh;
+    background-color: #425F57;
+}
+.card{
+    display: block;
+    background-color: #3A8E89;
+    border-radius: 1rem;
+    box-shadow: 3px 5px 20px 10px #2f4d23;
+    margin: 1rem;
 }
 .titulo{
     height: 10vh;
@@ -62,10 +55,13 @@ button{
     align-items: center;
     justify-content: center;
 }
-
+button{
+    font-size: 2rem;
+    border-radius: 2rem;
+}
 
 /*====================================================*/
-.label{
+/* .label{
     height: 10vh;
     display: flex;
     align-items: center;
@@ -84,11 +80,12 @@ button{
     align-items: center;
     justify-content: center;
 }
-.card{
-    display: block;
-    background-color: #3A8E89;
-    border-radius: 1rem;
-    box-shadow: 3px 5px 20px 10px #2f4d23;
-    margin: 1rem;
-}
+select {
+    font-size: 2rem;
+    padding: 2px 5px;
+    border-radius: 0.5rem;
+    border:0px;
+    outline:none;
+} */
+
 

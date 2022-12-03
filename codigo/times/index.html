@@ -3,38 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
-    <script src="./app.js" async></script>
-    <script src="../app.js"  async></script>
+    <script src="../app.js" async></script>
+    <script src="time.js" async></script>
     <title>SportMatch</title>
 </head>
 
 <body>
     <div class="tela">
         <div class="header">
-            <div class="head-item">
-                <a href="../index.html">Sport Match</a>
-            </div>
-            <div class="navigation">
-                <a href="../emAlta/index.html">Em Alta</a>
-            </div>
-            <div class="navigation">
-                <a href="../perfil/index.html">Perfil</a>
-            </div>
-            <div class="navigation">
-                <a href="../pessoas/index.html">Pessoas</a>
-            </div>
-            <div class="navigation">
-                <a href="../lugares/local.html">Lugares</a>
-            </div>
-            <div class="navigation">
-                <a href="../eventos/index.html">Eventos</a>
-            </div>
-            <div class="navigation">
-                <a href="../times/index.html">Times</a>
-            </div>
+            <div class="head-item" onclick="paginaLogin()">Sport Match</div>
+            <div class="navigation" onclick="paginaEmAlta()">Em Alta</div>
+            <div class="navigation" onclick="paginaLugares()">Lugares</div>
+            <div class="navigation" onclick="paginaCadastroLugares()">Cadastro de Lugares</div>
+            <div class="navigation" onclick="paginaTimes()">Times</div>
         </div>
         <div class="content">
             <div onclick="log()">log</div>
