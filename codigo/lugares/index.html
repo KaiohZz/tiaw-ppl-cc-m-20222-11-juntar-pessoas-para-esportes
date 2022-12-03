@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <script src="app1.js" async></script>
+    <script src="../app.js" async></script>
+    <script src="place.js" async></script>
     <title>SportMatch</title>
 </head>
-
-<body onload="init()">
-    <div class="tela2">
+<body>
+    <div class="tela">
         <div class="header">
             <div class="head-item">
                 <a href="../index.html">Sport Match</a>
@@ -34,8 +33,14 @@
                 <a href="../times/index.html">Times</a>
             </div>
         </div>
-        <div class="content2">
-            <div class="row">
+        <div class="content">
+
+            <button onclick="find()">find</button>
+            <button onclick="clear()">clear</button>
+            <button onclick="log()">log</button>
+            <button onclick="load()">load</button>
+
+            <!-- <div class="row">
                 <div id="msg" class="col-sm-10 offset-sm-1 ">
                 </div>
             </div>
@@ -130,14 +135,12 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
-
 </html>
-
-<script>
+<!-- <script>
     function exibeLocais() {
         // Remove todas as linhas do corpo da tabela
         $("#table-locais").html("");
@@ -243,4 +246,4 @@
             exibeLocais();
         });
     }
-</script>
+</script> -->

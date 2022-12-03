@@ -3,10 +3,22 @@ function loginUser(login, senha) {
     sessionStorage.setItem('user', x.value)
     window.location.href = "./emAlta/index.html";
 }
-function limpar() {
+function log() {
+    console.log("session\n" + sessionStorage)
+    console.log("local\n" + localStorage.getItem('db'))
+    console.log("stack\n" + db)
+}
+function clear() {
     localStorage.clear()
     sessionStorage.clear()
     db = null;
+}
+function load() {
+    db = localStorage.getItem('db')
+    if (!db) {
+        db = db_default
+        localStorage.setItem('db', JSON.stringify(db))
+    }
 }
 // ========== DB
 
