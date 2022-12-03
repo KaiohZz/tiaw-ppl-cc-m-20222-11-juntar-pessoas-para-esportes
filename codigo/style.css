@@ -37,7 +37,6 @@ button{
 .header{
     background-color:#749F82;
     height: 10vh;
-    display: inline;
     align-items: center;
 }
 .content{
