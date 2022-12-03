@@ -12,10 +12,11 @@
         crossorigin="anonymous"></script>
     <script defer src="app1.js"></script>
     <script src="app2.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>SportMatch</title>
 </head>
 
-<body>
+<body class="tela">
     <div class="tela">
         <div class="header">
             <div class="head-item">
@@ -34,26 +35,29 @@
                 <a href="../lugares/local.html"> Lugares</a>
             </div>
             <div class="navigation">
+                <a href="../lugares/index.html"> Cadastro de Lugares</a>
+            </div>
+            <div class="navigation">
                 <a href="../eventos/index.html">Eventos</a>
             </div>
             <div class="navigation">
                 <a href="../times/index.html">Times</a>
             </div>
+            <form class="d-flex">
+                <select id="filtroEsporte" class="form-control me-2" name="esporte" id="esporte">
+                    <option value="0">Filtrar Esportes</option>
+                    <option value="1">Futebol</option>
+                    <option value="2">Vôlei</option>
+                    <option value="3">Basquete</option>
+                </select>
+            </form>
         </div>
-        <div class="content">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <select id="filtroEsporte" class="form-control me-2" name="esporte" id="esporte">
-                        <option value="0">Filtrar Esportes</option>
-                        <option value="1">Futebol</option>
-                        <option value="2">Vôlei</option>
-                        <option value="3">Basquete</option>
-                    </select>
-                </form>
+        <div class="container-fluid">
+            <br>
+            <br>
                 <div id="tela" class="row gx-10 gy-5">
                 </div>
-            </div>
-        </div>
+        </div>   
     </div>
 </body>
 
