@@ -103,7 +103,6 @@ function exibeLocais () {
         let local = db.locais[i]
         if (((FILTRO_ESPORTE == 0) || local.idEsporte == FILTRO_ESPORTE)){
             str += `<div class="card col-md-3" >
-            <br>
             <img src="${local.imagem}" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${local.nome}</h5>
