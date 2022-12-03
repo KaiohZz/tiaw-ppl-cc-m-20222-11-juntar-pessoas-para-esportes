@@ -13,6 +13,7 @@ function limpar() {
 const db_default = {
     times: [
         {
+            id: 1,
             nome: "ABC do sul",
             esporte: "futebol",
             integrantes: [
@@ -23,6 +24,7 @@ const db_default = {
             ],
         },
         {
+            id: 2,
             nome: "DEF do leste",
             esporte: "volei",
             integrantes: [
@@ -33,6 +35,7 @@ const db_default = {
             ],
         },
         {
+            id: 3,
             nome: "UND do araguari",
             esporte: "chádreis",
             integrantes: [
@@ -47,48 +50,81 @@ const db_default = {
         {
             id: 1,
             name: "partida teste",
-            sportId: 1,
+            hostId: 1,
+            guestId: 2,
             date: "10/10/2022",
+            time: "16:30",
             placeId: 1,
-            playerIds: [1, 2, 3]
+            resultado: "vitoria do time xxx",
+            placar: "4x3"
         },
         {
             id: 2,
             name: "partida teste",
-            sportId: 1,
+            hostId: 1,
+            guestId: 2,
             date: "10/10/2022",
+            time: "16:30",
             placeId: 1,
-            playerIds: [1, 2, 3]
+            resultado: "vitoria do time xxx",
+            placar: "4x3"
         },
         {
             id: 3,
             name: "partida teste",
-            sportId: 1,
+            hostId: 1,
+            guestId: 2,
             date: "10/10/2022",
+            time: "16:30",
             placeId: 1,
-            playerIds: [1, 2, 3]
+            resultado: "vitoria do time xxx",
+            placar: "4x3"
         },
         {
             id: 4,
             name: "partida teste",
-            sportId: 1,
+            hostId: 1,
+            guestId: 2,
             date: "10/10/2022",
+            time: "16:30",
             placeId: 1,
-            playerIds: [1, 2, 3]
-        },
-        {
-            id: 5,
-            name: "partida teste",
-            sportId: 1,
-            date: "10/10/2022",
-            placeId: 1,
-            playerIds: [1, 2, 3]
+            resultado: "vitoria do time xxx",
+            placar: "4x3"
         },
     ],
     places: [
-        { id: 1, name: "Arena tupinambas" },
-        { id: 2, name: "Pé na areia" },
-        { id: 3, name: "Ginásio Orion" }
+        {
+            id: 1,
+            name: "Arena Pampulha",
+            address: "Av. Heráclito Mourão de Miranda, 3895 - Bandeirantes, Belo Horizonte",
+            sportId: 1,
+            descricao: "Quadras society e fut 7 totalmente cobertas",
+            imagem: "../assets/quadra.png"
+        },
+        {
+            id: 2,
+            name: "Pé na areia",
+            address: "R. Luz, 126 - Serra, Belo Horizonte",
+            sportId: 2,
+            descricao: "Alugueis de quadras para 🎾 Beach Tennis",
+            imagem: "../assets/quadra.png"
+        },
+        {
+            id: 3,
+            name: "Quadra Orion Esporte Clube",
+            address: "R. Padre Eustáquio, 1489 - Carlos Prates, Belo Horizonte",
+            sportId: 4,
+            descricao: "38 mestros de comprimento e 18 de largura",
+            imagem: "../assets/quadra.png"
+        },
+        {
+            id: 4,
+            name: "Quadra De Esportes",
+            address: "Praça Louis Braille, 106-168 - Saudade, Belo Horizonte",
+            sportId: 5,
+            descricao: "Quadra poliesportiva",
+            imagem: "../assets/quadra.png"
+        },
     ],
     users: [
         { id: 1, name: "user 1" },
@@ -99,6 +135,8 @@ const db_default = {
     sports: [
         { id: 1, name: "Futebol" },
         { id: 2, name: "Beach Tennis" },
-        { id: 3, name: "Volei" }
+        { id: 3, name: "Volei" },
+        { id: 4, name: "Fusal" },
+        { id: 5, name: "Basquete" },
     ]
 }

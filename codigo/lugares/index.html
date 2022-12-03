@@ -4,11 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
-    <script src="app.js" async></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" async></script>
     <script src="app1.js" async></script>
     <title>SportMatch</title>
 </head>
@@ -93,12 +89,12 @@
                                 placeholder="URL da imagem">
                         </div>
                     </div>
-                    
+
                     <div>
                         <div id="btn">
-                            <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                            <input onclick="insertLocal()" type="button" class="btn btn-success" id="btnInsert" value="Inserir">
                             <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
-                            <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                            <input onclick="deleteLocal()" type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
                         </div>
                     </div>
                 </form>
@@ -150,14 +146,14 @@
         for (i = 0; i < db.locais.length; i++) {
             let local = db.locais[i];
             $("#table-locais").append(`<tr><td scope="row">${local.id}</td>
-                                                <td>${local.nome}</td>
-                                                <td>${local.endereco}</td>
-                                                <td>${local.esporte}</td>
-                                                <td>${local.idEsporte}</td>
-                                                <td>${local.valor}</td>
-                                                <td>${local.descricao}</td>
-                                                <td>${local.imagem}</td>
-                                            </tr>`);
+        <td>${local.nome}</td>
+        <td>${local.endereco}</td>
+        <td>${local.esporte}</td>
+        <td>${local.idEsporte}</td>
+        <td>${local.valor}</td>
+        <td>${local.descricao}</td>
+        <td>${local.imagem}</td>
+    </tr>`);
         }
     }
 
@@ -245,36 +241,6 @@
 
             // Reexibe os contatos
             exibeLocais();
-
-            // Limpa o formulario
-            $("#form-local")[0].reset();
         });
-
-
-        // Oculta a mensagem de aviso após alguns segundos
-        $('#msg').bind("DOMSubtreeModified", function () {
-            window.setTimeout(function () {
-                $(".alert").fadeTo(500, 0).slideUp(500, function () {
-                    $(this).remove();
-                });
-            }, 5000);
-        });
-
-        // Preenche o formulário quando o usuario clicar em uma linha da tabela 
-        $("#grid-locais").on("click", "tr", function (e) {
-            let linhaLocal = this;
-            colunas = linhaLocal.querySelectorAll("td");
-
-            $("#inputId").val(colunas[0].innerText);
-            $("#inputNome").val(colunas[1].innerText);
-            $("#inputEndereco").val(colunas[2].innerText);
-            $("#inputEsporte").val(colunas[3].innerText);
-            $("#inputIdEsporte").val(colunas[4].innerText);
-            $("#inputValor").val(colunas[5].innerText);
-            $("#inputDescricao").val(colunas[6].innerText);
-            $("#inputImagem").val(colunas[7].innerText);
-        });
-
-        exibeLocais();
     }
 </script>
