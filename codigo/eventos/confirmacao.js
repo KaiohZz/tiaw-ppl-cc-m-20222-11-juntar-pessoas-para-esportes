@@ -53,7 +53,7 @@ function exibeEventos () {
             <img src="https://picsum.photos/120" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${evento.local}</h5>
-            <a href="evento.html?id=${evento.id}" class="btn btn-primary">Mais detalhes</a>
+            <a href="evento.html?id=${evento.id}" class="btn btn-primary">   Mais detalhes</a>
             </div>
           </div>`
         }
@@ -69,13 +69,14 @@ function exibeEventos () {
             let confir =""
             if(evento.presenca==true) confir= "Confirmada"
             else confir = "Não confirmada" 
-            let str =  `<div class="card col-md-4" >
+            let str =  `<div class="card" style="background-color: rgb(158, 196, 158); width: 30%;">
+            <br>
             <img src="https://picsum.photos/120" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${evento.local}</h5>
-              <p>Valor:R$${evento.valor}<p><br>
-              <p>Data:${evento.data}<p><br>
-              <p>Esporte:${getDescricaoEsportes(evento.idEsporte)}<p><br>
+              <p>Valor:R$${evento.valor}<p>
+              <p>Data:${evento.data}<p>
+              <p>Esporte:${getDescricaoEsportes(evento.idEsporte)}<p>
               <p>Presença:${confir}
               
             </div>

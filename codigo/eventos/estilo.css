@@ -1,8 +1,21 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #tela {
-    background-color:aquamarine;
+    background-color: #6e947a;
 }
-.card-img-top{max-width: 400px;max-height: 200px;}
+.card-img-top{
+    max-width: 400px;
+    max-height: 200px;
+}
+.tela{
+    background-color: #749F82;
+    margin: 0px;
+    border: 0px;
+    min-height: 100vh;
+    font-size: 20px;
+}
+button{
+    background-color: #83af91;
+}
