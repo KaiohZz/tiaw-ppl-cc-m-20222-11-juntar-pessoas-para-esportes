@@ -6,19 +6,25 @@ paleta
 #CFFF8D
 */
 
-body{
+body {
     margin: 0px;
     border: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.tela{
+
+::selection {
+    background-color: #CFFF8D;
+}
+
+.tela {
     background-color: #749F82;
     margin: 0px;
     border: 0px;
     min-height: 100vh;
-    
+
 }
-.header{
+
+.header {
     background-color: #CFFF8D;
     height: 10vh;
     display: flex;
@@ -26,66 +32,86 @@ body{
     font-weight: bold;
     color: rgb(60, 60, 60);
 }
-.head-item{
+
+.head-item {
     margin: 10px;
     margin-right: 30px;
     font-size: 40px;
 }
-.navigation{
+
+.navigation {
     margin: 10px;
     font-size: 22px;
 }
-.content{
+
+.content {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-bottom: 20vh;
     background-color: #425F57;
-}
-.card{
     display: block;
-    background-color: #3A8E89;
+    height: 90vh;
+}
+
+.card {
+    display: block;
+    background-color: #88bb99;
+    width: 30%;
+    margin-top: 1rem;
     border-radius: 1rem;
-    box-shadow: 3px 5px 20px 10px #2f4d23;
-    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    height: fit-content;
 }
-.titulo{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-button{
+
+button {
     font-size: 2rem;
     border-radius: 2rem;
+    height: fit-content;
+    background-color: #CFFF8D;
+    border: none;
 }
 
-/*====================================================*/
-/* .label{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
+button:active {
+    transform: translateY(2px);
 }
-.opcao{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.botao{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-select {
-    font-size: 2rem;
-    padding: 2px 5px;
-    border-radius: 0.5rem;
-    border:0px;
-    outline:none;
-} */
 
+.label {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    display: block;
+}
 
+.data-input {
+    padding-top: 1rem;
+    text-align: center;
+    border: none;
+    background-color: #88bb99;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.data-input:focus {
+    outline: none;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 90%;
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.confirmar {
+    text-align: center;
+    align-items: center;
+}

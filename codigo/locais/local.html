@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <script src="../app.js" async></script>
-    <script src="place.js" async></script>
+    <script src="local.js" async></script>
     <title>SportMatch</title>
 </head>
 
@@ -21,17 +21,33 @@
             <div class="navigation" onclick="paginaTimes()">Times</div>
         </div>
         <div class="content">
-            <form class="d-flex">
-                <select id="filtroEsporte" class="form-control me-2" name="esporte" id="esporte">
-                    <option value="0">Filtrar Esportes</option>
-                    <option value="1">Futebol</option>
-                    <option value="2">Vôlei</option>
-                    <option value="3">Basquete</option>
-                </select>
-            </form>
-            <br>
-            <br>
-            <div id="tela" class="row gx-10 gy-5">
+            <div class="card-list">
+                <div class="card">
+                    <div class="label">Nome do local</div>
+                    <input type="text" id="inputName" class="data-input" required>
+                </div>
+                <div class="card">
+                    <div class="label">Endereço</div>
+                    <input type="text" id="inputAddress" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Descrição</div>
+                    <input type="text" id="inputDescription" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Esporte</div>
+                    <select id="inputSportId" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Futebol</option>
+                        <option value="2">Beach Tennis</option>
+                        <option value="3">Vôlei</option>
+                        <option value="4">Fusal</option>
+                        <option value="5">Basquete</option>
+                    </select>
+                </div>
+            </div>
+            <div class="confirmar">
+                <button onclick="insertLocal()">Cadastrar</button>
             </div>
         </div>
     </div>

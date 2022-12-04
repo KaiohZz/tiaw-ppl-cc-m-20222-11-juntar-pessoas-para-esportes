@@ -1,20 +1,19 @@
 // ====== Navigation
-function paginaLogin(){
-    window.location.href='../index.html'
+function paginaLogin() {
+    window.location.href = '../index.html'
 }
-function paginaEmAlta(){
-    window.location.href='../emAlta/index.html'
+function paginaEmAlta() {
+    window.location.href = '../emAlta/index.html'
 }
-function paginaLugares(){
-    window.location.href='../locais/index.html'
+function paginaLugares() {
+    window.location.href = '../locais/index.html'
 }
-function paginaCadastroLugares(){
-    window.location.href='../locais/local.html'
+function paginaCadastroLugares() {
+    window.location.href = '../locais/local.html'
 }
-function paginaTimes(){
-    window.location.href='../times/index.html'
+function paginaTimes() {
+    window.location.href = '../times/index.html'
 }
-
 
 // ======== Utils
 function loginUser() {
@@ -36,14 +35,14 @@ function limpar() {
     db = null;
 }
 function load() {
-    db = localStorage.getItem('db')
+    db = JSON.parse(localStorage.getItem('db'))
     if (!db) {
         db = db_default
         localStorage.setItem('db', JSON.stringify(db))
     }
 }
+load()
 // ========== DB
-
 const db_default = {
     times: [
         {
@@ -164,7 +163,7 @@ const db_default = {
         { id: 1, name: "user 1" },
         { id: 2, name: "user 2" },
         { id: 3, name: "user 3" },
-        { id: 3, name: "user 4" }
+        { id: 4, name: "user 4" },
     ],
     sports: [
         { id: 1, name: "Futebol" },
@@ -172,5 +171,6 @@ const db_default = {
         { id: 3, name: "Volei" },
         { id: 4, name: "Fusal" },
         { id: 5, name: "Basquete" },
+        { id: 6, name: "Teste" },
     ]
 }
