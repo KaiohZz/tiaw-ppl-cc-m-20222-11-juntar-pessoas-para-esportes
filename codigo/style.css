@@ -32,12 +32,13 @@ button{
     margin: 0px;
     border: 0px;
     min-height: 100vh;
-    font-size: 50px;
+    font-size: 20px;
 }
 .header{
     background-color:#749F82;
     height: 10vh;
     align-items: center;
+    padding-left:20%;
 }
 .content{
     margin-left: auto;
@@ -86,17 +87,37 @@ button{
     justify-content: center;
 }
 .card{
-    display: block;
+    display: inline-block;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 3px 5px 20px 10px #2f4d23;
     margin: 1rem;
 }
 
-#div.navigation{
+.navigation{
     margin-bottom:0px;
 }
 .d-flex {
     background-color: #749F82;
-   
 }
+.card-img-top{
+    width: 300px;
+    height: auto;
+}
+
+
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20vh;
+    background-color: #425F57;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+    
+  .head-item {
+    margin:0px;
+  }
+  .tituloEvento{
+    margin:0px;
+  }
