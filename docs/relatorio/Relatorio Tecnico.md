@@ -48,16 +48,13 @@ Curso Ciência da Computação
 
 
 # Introdução
-atletas
-- saude mental e fisica
-- instrumento de socialização
-espaços
-- divulgação
+A socialização é uma necessidade primordial a todas as pessoas, desde a infância até a velhice. Ela é fundamental para o bem-estar social e saúde emocional dos indivíduos. 
+Uma boa estratégia para promove-lo é a prática esportiva realizada em grupo. Vale ressaltar ainda que os esportes coletivos, sempre presentes de forma marcante na sociedade brasileira, servem de descontração, diante de rotinas estressantes. Ademias, a utilização desse entretenimento possibilita diversos benefícios à saúde física e mental.
+Nota-se que, apesar dos diversos benefícios causados pela prática de esportes, ainda existem alguns fatores que dificultam a mesma. Comprova-se tal situação com a dificuldade de reunir pessoas com mesmos interesses esportivos, como montar uma equipe de futebol completa em um mesmo ambiente. Sendo assim, os alunos da PUC Minas, propõem um projeto para a resolução dessa problemática. 
 
-//Ao organizar-se para um esporte coletivo, é um fardo do organizador, tentar encontrar um horário que satisfaça a um grupo mínimo de participantes para possibilitar a realização do evento. Como exemplo o futebol, o ideal relatado nas entrevistas é que tenha-se no mínimo três times, para que haja período de descanso otimizado entre as partidas ( um time descansa enquanto dois jogam). Como custo deste problema, diminui-se a quantidade de jogos possíveis e torna o processo moroso para todos, diminuindo a qualidade de sua experiência.
 
 ## Problema
-O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas têm em encontrar parceiros para a realização de atividades físicas e, além disso, marcar(...). Por meio, das pesquisas e entrevistas realizadas pelo grupo, constatou-se a ausência de softwares capazes de conectar pessoas com objetivo similares de forma eficiente. Além disso, é notável a existência de uma grande parcela de pessoas que deixam de exercitar-se por causa desse empecilho.
+O problema que se busca resolver com este projeto é a dificuldade que grande parte das pessoas têm em encontrar parceiros para a realização de atividades físicas e, além disso, marcar esses eventos esportivos. Por meio das pesquisas e entrevistas realizadas pelo grupo, constatou-se a ausência de softwares capazes de conectar pessoas com objetivo similares, no âmbito esportivo, de forma eficiente. Além disso, é notável a existência de uma grande parcela de pessoas que deixam de exercitar-se por causa dessa dificuldade.
 
 ## Objetivos
 O objetivo geral deste trabalho é a criação de um app que facilite a organização e a marcação de práticas esportivas.
@@ -69,9 +66,7 @@ Como objetivos específicos, podemos ressaltar:
 
 
 ## Justificativa
-De acordo com o IBGE, Instituto Brasileiro de Geografia e Estatística, 40,3% dos adultos são considerados sedentários no Brasil. Este dado comprova que grande parte da população necessita de incentivo ou possui dificuldades para realização atividades físicas. As práticas esportivas, mesmo que de forma amadora, são fundamentais à saúde física e mental, em virtude de ser capaz de trazer inúmeros privilégios ao corpo e à mente das pessoas em seu cotidiano, além de reduzir riscos de aparecimento de doenças. Por isso, visando incentivar e facilitar a organização de encontros para práticas esportivas, nós, alunos da PUC Minas, decidimos criar um ambiente que favoreça o encontro de pessoas com interesses similares e auxilie na marcação dos eventos.
-
-// Atualmente, muitas pessoas de diferentes idades apresentam dificuldades em organizar encontros para práticas esportivas por diversos motivos. Portanto decidimos criar de um ambiente que favoreça encontro de pessoas com interesses similares e auxilie na organização dos eventos.
+De acordo com o IBGE, Instituto Brasileiro de Geografia e Estatística, 40,3% dos adultos são considerados sedentários no Brasil. Este dado comprova que grande parte da população necessita de incentivo ou possui dificuldades para realização atividades físicas. As práticas esportivas, mesmo que de forma amadora, são fundamentais à saúde física e mental, em virtude de ser capaz de trazer inúmeros privilégios ao corpo e à mente das pessoas em seu cotidiano, além de reduzir riscos de aparecimento de doenças. Por isso, visando incentivar e facilitar a organização de encontros para práticas esportivas, os alunos da PUC Minas decidiram criar um ambiente que favoreça o encontro de pessoas com interesses similares e auxilie na marcação dos eventos.
 
 
 ## Público-Alvo
@@ -79,14 +74,12 @@ O foco deste trabalho está em suprir a necessidade das pessoas de encontrar eve
 
  
 # Especificações do Projeto
- Nessa parte da documentação vamos falar sobre as personas e o mapa de empatia, histórias de usuários, requisitos e restrições. utilizou-se ferramentas virtuais
- como o miro para a concepção das personas.
+Foi feita uma pesquisa com diferentes pessoas que se enquadram no público alvo do projeto, a qual tinha como objetivo identificar os principais aspectos que desmotivam e dificultam a prática esportiva em grupo. A partir dos resultados obtidos, foram elaboradas duas personas.
  
 
 ## Personas e Mapas de Empatia
 
-Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. 	
-	Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa.
+Temos duas personas em mente, uma que tem maior aptidão para novas ferramentas e outra que é mais tolerante para iniciar o uso de nova ferramenta. O desafio com a segunda persona é trazê-lo para usar a ferramenta, após esta quebra de gelo inicial, este está muito mais propenso a continuar a usá-la, sendo o desafio inicial um empecilho também para a saída deste usuário. Um desafio grande é criar o interesse no usuário, e um desafio ainda maior e mais importante é retê-lo satisfeito, pois um usuário que não está satisfeito além de deixar de usar o seu serviço ainda tornar-se-á um detrator, fazendo propaganda negativa.
 
 ## Persona 1
 	
@@ -234,10 +227,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | Aluno  | Função              |
 |-----------|-------------------------|
 | Allan Guilherme Gomes Pego  | Front-End |
-| Bernardo Ribeiro Martins  | Front-End | 
+| Bernardo Ribeiro Martins  | Front-End e Apresentação | 
 | Felipe Assis Michalaros | Front-End |
-| Leticia Guimarães Pedrosa | Design & Organiza funções e horários |
-| Pedro Augusto Etelvino Albuquerque  | Design & Organiza funções e horários |
+| Leticia Guimarães Pedrosa | Front-End e Documentação |
+| Pedro Augusto Etelvino Albuquerque  | Front-End e Apresentação |
 | Vitoria Avany Gallo Motta | Front-End |
 
 
@@ -253,19 +246,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |quadro interátivo para kanban | trello | https://trello.com/invite/b/vBmy2Xzy/9f66c0234cabedc15be91518a86a8708/sports-match |
 > 
 > As ferramentas empregadas no projeto são:
-> 
-> - Editor de código: vim e vscode
-> O editor vscode foi escolhido porque ele possui uma integração com o sistema de versão.
-> O editor vim foi escolhido por apresentar grande estabilidade e confiabilidade.
-> - Ferramentas de comunicação: whats app
-> A ferramenta de comunicação whats app foi escolhida uma vez que ela já está fortemente
-> ligada ao dia a dia dos participantes. 
-> - Ferramentas de diagramação: miro 
-> Para criar diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> - Plataforma de hospedagem: herokuapp
-> Escolhida por ser uma hospedagem gratuita de fácil utilização. 
-> 
+	• Editor de código: O editor vscode foi escolhido porque ele possui uma integração com o sistema de versão.
+	• Ferramentas de comunicação: A ferramenta de comunicação whatsapp foi escolhida uma vez que ela já está fortemente ligada ao dia a dia dos participantes.
+	• Ferramentas de diagramação: Para criar diagramas utilizamos o Miro por melhor captar as necessidades da nossa solução.
+	• Plataforma de hospedagem: Herokuapp foi escolhida por ser uma hospedagem gratuita de fácil utilização.
+
 
 ## Controle de Versão
 
@@ -298,88 +283,49 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto da Solução
 
-Nesta seção são apresentados os detalhes técnicos da solução criada pelo grupo, tratando da arquitetura da aoluçãoas, as estruturas de dados e as telas já implementadas.
+Nesta seção são apresentados os detalhes técnicos da solução criada pelo grupo, tratando da arquitetura da solução, das estruturas de dados e das telas já implementadas.
 
 ## Tecnologias Utilizadas
 
-Para implementar a solução do projeto, foram utilizadas as linguagens HTML (HyperText Markup Language) que é o componente básico da web, assim, ele permite inserir o conteúdo e  , CSS e JavaScript.
+Para implementar a solução do projeto, foram utilizadas diversas tecnologias para a resolução do projeto:
+	• HTML (HyperText Markup Language) que é o componente básico da web, assim, ele permite inserir o conteúdo e estabelecer a estrutura básica do site, 
+	• CSS (Cascading Style Sheets) é um mecanismo para adicionar estilo a um documento web, assim, foi possível desenvolver o design do site.
+	• JavaScript foi a linguagem de programação utilizada pelos alunos para a realização dos requisitos pré-definidos do site.
+	• JSON (JavaScript Object Notation) é um padrão de formatação de dados para troca de informações entre sistemas. Por isso, foi utilizado para a integração das informações trocadas entre os requisitos.
 
- O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. 
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+A solução contém os seguintes módulos: 
+1. Tecnologias Utilizadas: HTML, CSS e Java Script.
+2. Páginas Web: Conjunto de arquivos HTML, CSS, JavaScript desenvolvidos pelos alunos que implementam as funcionalidades do sistema.
+3. Local Storage: a funcionalidade do localStorage consiste em salvar, adicionar, recuperar ou excluir dados localmente no navegador Web onde são implementados bancos de dados baseados em JSON. 
+	• Cadastro e Login: informações cadastradas pelos usuários.
+	• Cadastro de Eventos: informações cadastradas pelos usuários ao criar um novo evento esportivo.
+	• Cadastro de Lugares: informações cadastradas pelos usuários ao criar um novo lugar, onde é possível a realização de práticas esportivas.
+	• Cadastro de Time: informações cadastradas pelos usuários ao criar uma nova equipe.
+4. Navegador: habilita os usuários a interagirem com os documentos HTML hospedados em um servidor da rede.
+5. Usuários: pessoas que usufruirão do site desenvolvido pelos alunos.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Nessa seção, apresenta-se o processo de realização dos testes da solução desenvolvida no projeto. Assim, exibe os planos de testes e, na sequência, o registro dos testes realizados.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Sedentarismo atinge 47% dos brasileiros – 2022. https://www.unimedcuritiba.com.br/noticias/sedentarismo-atinge-47-dos-brasileiros#:~:text=Segundo%20dados%20do%20Instituto%20Brasileiro,ainda%20mais%20alarmante%3A%2084%25.
+Os oito benefícios mentais do esporte – 2018. https://ge.globo.com/eu-atleta/saude/noticia/os-8-principais-beneficios-mentais-dos-esportes.ghtml
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
