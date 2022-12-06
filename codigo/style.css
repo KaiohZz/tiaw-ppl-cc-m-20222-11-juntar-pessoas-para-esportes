@@ -47,7 +47,7 @@ body {
 .content {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 75%;
     background-color: #425F57;
     display: block;
     height: 90vh;
@@ -56,11 +56,10 @@ body {
 .card {
     display: block;
     background-color: #88bb99;
-    width: 30%;
+    width: 28%;
     margin-top: 1rem;
     border-radius: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding: 1rem;
     height: fit-content;
 }
 
@@ -114,4 +113,5 @@ img {
 .confirmar {
     text-align: center;
     align-items: center;
+    margin: 2rem;
 }

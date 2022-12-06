@@ -21,20 +21,43 @@
             <div class="navigation" onclick="paginaTimes()">Times</div>
         </div>
         <div class="content">
-            <div onclick="log()">log</div>
-            <hr>
-            <div class="salvar">
-                <div id="formTimes">
-                    Nome: <input type="text" id="time"><br><br>
-                    Esporte: <input type="text" id="esporte"><br><br>
-                    Integrante 1: <input type="text" id="integrante1"><br><br>
-                    Integrante 2: <input type="text" id="integrante2"><br><br>
-                    Integrante 3: <input type="text" id="integrante3"><br><br>
-                    Integrante 4: <input type="text" id="integrante4"><br><br>
+            <div class="card-list">
+                <div class="card">
+                    <div class="label">Nome do time</div>
+                    <input type="text" id="inputName" class="data-input">
                 </div>
-                <button onclick="salvarTime()">Salvar</button>
+                <div class="card">
+                    <div class="label">Esporte</div>
+                    <select id="inputSportId" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Futebol</option>
+                        <option value="2">Beach Tennis</option>
+                        <option value="3">Vôlei</option>
+                        <option value="4">Fusal</option>
+                        <option value="5">Basquete</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 1</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 2</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 3</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Integrante 4</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div>
             </div>
-            <div id="cardList">
+            <div class="confirmar">
+                <button onclick="salvarTime()">Cadastrar</button>
+            </div>
+            <div id="cardList" class="card-list">
             </div>
         </div>
     </div>

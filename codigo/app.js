@@ -47,8 +47,8 @@ const db_default = {
     times: [
         {
             id: 1,
-            nome: "ABC do sul",
-            esporte: "futebol",
+            name: "ABC do sul",
+            sportId: 1,
             integrantes: [
                 "paulo otavio",
                 "mario nascimento",
@@ -58,8 +58,8 @@ const db_default = {
         },
         {
             id: 2,
-            nome: "DEF do leste",
-            esporte: "volei",
+            name: "DEF do leste",
+            sportId: 2,
             integrantes: [
                 "pedro 123 de oliveira 4",
                 "mario do armario",
@@ -69,8 +69,8 @@ const db_default = {
         },
         {
             id: 3,
-            nome: "UND do araguari",
-            esporte: "chádreis",
+            name: "UND do araguari",
+            sportId: 3,
             integrantes: [
                 "pedro 123 de oliveira 4",
                 "mario do armario",

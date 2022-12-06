@@ -23,20 +23,19 @@ function exibeLocais() {
         for (let place of db.places) {
             const index = db.sports.findIndex(x => x.id === place.sportId)
             template += `
-            <div class="card">
-                Nome: ${place.name}
-                <br>
-                Endereço: ${place.address}
-                <br>
-                Esporte: ${db.sports[index].name}
-                <br>
-                Descrição: ${place.descricao}
-                <br><br>
-                <div>
-                    <img src="${place.imagem}"></img>
-                </div>
-            </div>
-        `
+                <div class="card">
+                    Nome: ${place.name}
+                    <br>
+                    Endereço: ${place.address}
+                    <br>
+                    Esporte: ${db.sports[index].name}
+                    <br>
+                    Descrição: ${place.descricao}
+                    <br><br>
+                    <div>
+                        <img src="${place.imagem}"></img>
+                    </div>
+                </div>`
         }
         lista.innerHTML = template
     }
