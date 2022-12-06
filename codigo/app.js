@@ -2,8 +2,8 @@
 function paginaLogin() {
     window.location.href = '../index.html'
 }
-function paginaEmAlta() {
-    window.location.href = '../emAlta/index.html'
+function paginaPartidas() {
+    window.location.href = '../partidas/index.html'
 }
 function paginaLugares() {
     window.location.href = '../locais/index.html'
@@ -19,7 +19,7 @@ function paginaTimes() {
 function loginUser() {
     let x = document.getElementById("user")
     sessionStorage.setItem('user', x.value)
-    window.location.href = "./emAlta/index.html"
+    window.location.href = "./partidas/index.html"
 }
 function log() {
     console.log("localStorage")

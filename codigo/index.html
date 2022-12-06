@@ -16,18 +16,19 @@
             <div class="head-item">Sport Match</div>
         </div>
         <div class="content">
-            <div class="titulo">Login</div>
-            <div class="label">Choose a user:</div>
-            <div class="opcao">
-                <select id="user">
-                    <option value="user1">user 1</option>
-                    <option value="user2">user 2</option>
-                    <option value="user3">user 3</option>
-                    <option value="user4">user 4</option>
-                </select>
-            </div>
-            <div class="botao">
-                <button onclick="loginUser()">Entrar</button>
+            <div class="login">
+                <div class="opcao">Escolha um usuário:</div>
+                <div class="opcao">
+                    <select id="user" class="user-input">
+                        <option value="user1">user 1</option>
+                        <option value="user2">user 2</option>
+                        <option value="user3">user 3</option>
+                        <option value="user4">user 4</option>
+                    </select>
+                </div>
+                <div class="opcao confirmar">
+                    <button onclick="loginUser()" class="padd">Entrar</button>
+                </div>
             </div>
         </div>
     </div>

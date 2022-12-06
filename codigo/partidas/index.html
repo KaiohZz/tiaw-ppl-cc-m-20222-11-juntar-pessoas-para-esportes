@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../app.js" async></script>
+    <script src="partida.js" async></script>
+    <title>SportMatch</title>
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <div class="head-item" onclick="paginaLogin()">Sport Match</div>
+            <div class="navigation" onclick="paginaPartidas()">Partidas</div>
+            <div class="navigation" onclick="paginaTimes()">Times</div>
+            <div class="navigation" onclick="paginaLugares()">Lugares</div>
+            <div class="navigation" onclick="paginaCadastroLugares()">Cadastro de Lugares</div>
+        </div>
+        <div class="content">
+            <div class="card-list">
+                <div class="card">
+                    <div class="label">Nome</div>
+                    <input type="text" id="inputName" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Time 1</div>
+                    <select id="inputHost" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Time 1</option>
+                        <option value="2">Time 2</option>
+                        <option value="3">Time 3</option>
+                        <option value="4">Time 4</option>
+                        <option value="5">Time 5</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <div class="label">Time 2</div>
+                    <select id="inputGuest" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Time 1</option>
+                        <option value="2">Time 2</option>
+                        <option value="3">Time 3</option>
+                        <option value="4">Time 4</option>
+                        <option value="5">Time 5</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <div class="label">Data</div>
+                    <input type="text" id="inputDate" class="data-input">
+                </div>
+                <div class="card">
+                    <div class="label">Lugar</div>
+                    <select id="inputPlace" class="data-input">
+                        <option value="" disabled selected></option>
+                        <option value="1">Lugar 1</option>
+                        <option value="2">Lugar 2</option>
+                        <option value="3">Lugar 3</option>
+                        <option value="4">Lugar 4</option>
+                        <option value="5">Lugar 5</option>
+                    </select>
+                </div>
+                <!-- <div class="card">
+                    <div class="label">Resultado</div>
+                    <input type="text" name="inputIntegrantes" class="data-input">
+                </div> -->
+            </div>
+            <div class="confirmar">
+                <button onclick="salvarPartida()" class="padd">Cadastrar</button>
+            </div>
+            <div id="cardList" class="card-list">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

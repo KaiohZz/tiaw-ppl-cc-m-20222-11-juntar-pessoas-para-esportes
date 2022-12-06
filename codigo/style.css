@@ -91,6 +91,7 @@ button:active {
     display: block;
     width: 90%;
     margin: auto;
+    font-size: large;
 }
 
 .data-input:focus {
@@ -115,3 +116,28 @@ img {
     align-items: center;
     margin: 2rem;
 }
+
+.login{
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+
+ .opcao{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+ }
+
+ .user-input{
+    width: 20%;
+    outline: none;
+    background-color: #88bb99;
+    border-radius: 1rem;
+    text-align: center;
+    height: 2.5rem;
+    font-size: large;
+ }
+
+ .padd{
+    padding: .6rem;
+ }
