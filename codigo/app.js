@@ -1,47 +1,3 @@
-// ====== Navigation
-function paginaLogin() {
-    window.location.href = '../index.html'
-}
-function paginaPartidas() {
-    window.location.href = '../partidas/index.html'
-}
-function paginaLugares() {
-    window.location.href = '../locais/index.html'
-}
-function paginaCadastroLugares() {
-    window.location.href = '../locais/local.html'
-}
-function paginaTimes() {
-    window.location.href = '../times/index.html'
-}
-
-// ======== Utils
-function loginUser() {
-    let x = document.getElementById("user")
-    sessionStorage.setItem('user', x.value)
-    window.location.href = "./partidas/index.html"
-}
-function log() {
-    console.log("localStorage")
-    console.log(localStorage)
-    console.log("sessionStorage")
-    console.log(sessionStorage)
-    console.log("runtime")
-    console.log(db)
-}
-function limpar() {
-    localStorage.clear()
-    sessionStorage.clear()
-    db = null;
-}
-function load() {
-    db = JSON.parse(localStorage.getItem('db'))
-    if (!db) {
-        db = db_default
-        localStorage.setItem('db', JSON.stringify(db))
-    }
-}
-load()
 // ========== DB
 const db_default = {
     times: [
@@ -174,3 +130,48 @@ const db_default = {
         { id: 6, name: "Teste" },
     ]
 }
+// ====== Navigation
+function paginaLogin() {
+    window.location.href = '../index.html'
+}
+function paginaPartidas() {
+    window.location.href = '../partidas/index.html'
+}
+function paginaLugares() {
+    window.location.href = '../locais/index.html'
+}
+function paginaCadastroLugares() {
+    window.location.href = '../locais/local.html'
+}
+function paginaTimes() {
+    window.location.href = '../times/index.html'
+}
+
+// ======== Utils
+function loginUser() {
+    let x = document.getElementById("user")
+    sessionStorage.setItem('user', x.value)
+    window.location.href = "./partidas/index.html"
+}
+function log() {
+    console.log("localStorage")
+    console.log(localStorage)
+    console.log("sessionStorage")
+    console.log(sessionStorage)
+    console.log("runtime")
+    console.log(db)
+}
+function limpar() {
+    localStorage.clear()
+    sessionStorage.clear()
+    db = null;
+}
+function load() {
+    db = JSON.parse(localStorage.getItem('db'))
+    if (!db) {
+        console.log("oi")
+        db = db_default
+        localStorage.setItem('db', JSON.stringify(db))
+    }
+}
+load()

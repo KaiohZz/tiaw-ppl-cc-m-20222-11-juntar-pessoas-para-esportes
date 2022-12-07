@@ -2,7 +2,7 @@ function salvarPartida() {
     const inputName = document.getElementById('inputName').value
     const inputHostId = parseInt(document.getElementById('inputHost').value)
     const inputGuestId = parseInt(document.getElementById('inputHost').value)
-    const inputPlaceId = parseInt(document.getElementById('inputHost').value)
+    const inputPlaceId = parseInt(document.getElementById('inputGuest').value)
     const inputDate = document.getElementById('inputDate').value
     const novaPartida = {
         name: inputName,
