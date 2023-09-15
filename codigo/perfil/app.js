@@ -1,4 +1,4 @@
-var db_default = {
+/*var db_default = {
     matches: [
         {
             id: 1,
@@ -64,4 +64,4 @@ function eventos(){
 // function nota(nota){
 //     console.log(nota)
 //     ${db.matches[1].name}
-// }
+// }*/
